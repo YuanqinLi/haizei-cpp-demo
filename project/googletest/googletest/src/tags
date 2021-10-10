@@ -1,0 +1,916 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Abort	gtest-death-test.cc	/^void DeathTestImpl::Abort(AbortReason reason) {$/;"	f	class:testing::internal::DeathTestImpl
+Abort	gtest-port.cc	/^void Abort() {$/;"	f	namespace:testing::internal::posix
+AbstractSocketWriter	gtest-internal-inl.h	/^  class AbstractSocketWriter {$/;"	c	class:testing::internal::StreamingListener
+AddArgument	gtest-death-test.cc	/^  void AddArgument(const char* argument) {$/;"	f	class:testing::internal::Arguments
+AddArguments	gtest-death-test.cc	/^  void AddArguments(const ::std::vector<Str>& arguments) {$/;"	f	class:testing::internal::Arguments
+AddEnvironment	gtest.cc	/^Environment* UnitTest::AddEnvironment(Environment* env) {$/;"	f	class:testing::UnitTest
+AddTestInfo	gtest-internal-inl.h	/^  void AddTestInfo(internal::SetUpTestSuiteFunc set_up_tc,$/;"	f	class:testing::internal::UnitTestImpl
+AddTestInfo	gtest.cc	/^void TestSuite::AddTestInfo(TestInfo* test_info) {$/;"	f	class:testing::TestSuite
+AddTestPartResult	gtest.cc	/^void TestResult::AddTestPartResult(const TestPartResult& test_part_result) {$/;"	f	class:testing::TestResult
+AlwaysTrue	gtest.cc	/^bool AlwaysTrue() {$/;"	f	namespace:testing::internal
+AnsiToUtf16	gtest.cc	/^LPCWSTR String::AnsiToUtf16(const char* ansi) {$/;"	f	class:testing::internal::String
+Append	gtest-test-part.cc	/^void TestPartResultArray::Append(const TestPartResult& result) {$/;"	f	class:testing::TestPartResultArray
+Append	gtest.cc	/^void TestEventListeners::Append(TestEventListener* listener) {$/;"	f	class:testing::TestEventListeners
+Append	gtest.cc	/^void TestEventRepeater::Append(TestEventListener *listener) {$/;"	f	class:testing::internal::TestEventRepeater
+AppendUserMessage	gtest.cc	/^std::string AppendUserMessage(const std::string& gtest_msg,$/;"	f	namespace:testing::internal
+Arguments	gtest-death-test.cc	/^  Arguments() { args_.push_back(nullptr); }$/;"	f	class:testing::internal::Arguments
+Arguments	gtest-death-test.cc	/^class Arguments {$/;"	c	namespace:testing::internal	file:
+Argv	gtest-death-test.cc	/^  char* const* Argv() {$/;"	f	class:testing::internal::Arguments
+ArrayAsVector	gtest.cc	/^std::vector<std::string> ArrayAsVector(const char* const (&array)[kSize]) {$/;"	f	namespace:testing
+AssertHeld	gtest-port.cc	/^void Mutex::AssertHeld() {$/;"	f	class:testing::internal::Mutex
+AssertHelper	gtest.cc	/^AssertHelper::AssertHelper(TestPartResult::Type type,$/;"	f	class:testing::internal::AssertHelper
+AssertionFailure	gtest.cc	/^AssertionResult AssertionFailure() {$/;"	f	namespace:testing
+AssertionFailure	gtest.cc	/^AssertionResult AssertionFailure(const Message& message) {$/;"	f	namespace:testing
+AssertionResult	gtest.cc	/^AssertionResult::AssertionResult(const AssertionResult& other)$/;"	f	class:testing::AssertionResult
+AssertionSuccess	gtest.cc	/^AssertionResult AssertionSuccess() {$/;"	f	namespace:testing
+AssumeRole	gtest-death-test.cc	/^DeathTest::TestRole ExecDeathTest::AssumeRole() {$/;"	f	class:testing::internal::ExecDeathTest
+AssumeRole	gtest-death-test.cc	/^DeathTest::TestRole FuchsiaDeathTest::AssumeRole() {$/;"	f	class:testing::internal::FuchsiaDeathTest
+AssumeRole	gtest-death-test.cc	/^DeathTest::TestRole NoExecDeathTest::AssumeRole() {$/;"	f	class:testing::internal::NoExecDeathTest
+AssumeRole	gtest-death-test.cc	/^DeathTest::TestRole WindowsDeathTest::AssumeRole() {$/;"	f	class:testing::internal::WindowsDeathTest
+AtomMatchesChar	gtest-port.cc	/^bool AtomMatchesChar(bool escaped, char pattern_char, char ch) {$/;"	f	namespace:testing::internal
+AutoHandle	gtest-port.cc	/^AutoHandle::AutoHandle()$/;"	f	class:testing::internal::AutoHandle
+AutoHandle	gtest-port.cc	/^AutoHandle::AutoHandle(Handle handle)$/;"	f	class:testing::internal::AutoHandle
+BoolFromGTestEnv	gtest-port.cc	/^bool BoolFromGTestEnv(const char* flag, bool default_value) {$/;"	f	namespace:testing::internal
+CStringEquals	gtest.cc	/^bool String::CStringEquals(const char * lhs, const char * rhs) {$/;"	f	class:testing::internal::String
+CalculateOptimalEdits	gtest.cc	/^std::vector<EditType> CalculateOptimalEdits($/;"	f	namespace:testing::internal::edit_distance
+CalculateOptimalEdits	gtest.cc	/^std::vector<EditType> CalculateOptimalEdits(const std::vector<size_t>& left,$/;"	f	namespace:testing::internal::edit_distance
+CaptureStderr	gtest-port.cc	/^void CaptureStderr() {$/;"	f	namespace:testing::internal
+CaptureStdout	gtest-port.cc	/^void CaptureStdout() {$/;"	f	namespace:testing::internal
+CaptureStream	gtest-port.cc	/^static void CaptureStream(int fd, const char* stream_name,$/;"	f	namespace:testing::internal
+CapturedStream	gtest-port.cc	/^  explicit CapturedStream(int fd) : fd_(fd), uncaptured_fd_(dup(fd)) {$/;"	f	class:testing::internal::CapturedStream
+CapturedStream	gtest-port.cc	/^class CapturedStream {$/;"	c	namespace:testing::internal	file:
+CaseInsensitiveCStringEquals	gtest.cc	/^bool String::CaseInsensitiveCStringEquals(const char * lhs, const char * rhs) {$/;"	f	class:testing::internal::String
+CaseInsensitiveWideCStringEquals	gtest.cc	/^bool String::CaseInsensitiveWideCStringEquals(const wchar_t* lhs,$/;"	f	class:testing::internal::String
+CharFormat	gtest-printers.cc	/^enum CharFormat {$/;"	g	namespace:testing::internal	file:
+ChopLowBits	gtest.cc	/^inline UInt32 ChopLowBits(UInt32* bits, int n) {$/;"	f	namespace:testing::internal
+ClassUniqueToAlwaysTrue	gtest.cc	/^class ClassUniqueToAlwaysTrue {};$/;"	c	namespace:testing::internal::__anon12	file:
+Clear	gtest.cc	/^void TestResult::Clear() {$/;"	f	class:testing::TestResult
+ClearAdHocTestResult	gtest-internal-inl.h	/^  void ClearAdHocTestResult() {$/;"	f	class:testing::internal::UnitTestImpl
+ClearInjectableArgvs	gtest-port.cc	/^void ClearInjectableArgvs() {$/;"	f	namespace:testing::internal
+ClearNonAdHocTestResult	gtest-internal-inl.h	/^  void ClearNonAdHocTestResult() {$/;"	f	class:testing::internal::UnitTestImpl
+ClearResult	gtest.cc	/^void TestSuite::ClearResult() {$/;"	f	class:testing::TestSuite
+ClearTestPartResults	gtest-internal-inl.h	/^  static void ClearTestPartResults(TestResult* test_result) {$/;"	f	class:testing::internal::TestResultAccessor
+ClearTestPartResults	gtest.cc	/^void TestResult::ClearTestPartResults() {$/;"	f	class:testing::TestResult
+CloseConnection	gtest-internal-inl.h	/^    virtual void CloseConnection() {}$/;"	f	class:testing::internal::StreamingListener::AbstractSocketWriter
+CmpHelperEQ	gtest.cc	/^AssertionResult CmpHelperEQ(const char* lhs_expression,$/;"	f	namespace:testing::internal
+CmpHelperSTRCASEEQ	gtest.cc	/^AssertionResult CmpHelperSTRCASEEQ(const char* lhs_expression,$/;"	f	namespace:testing::internal
+CmpHelperSTRCASENE	gtest.cc	/^AssertionResult CmpHelperSTRCASENE(const char* s1_expression,$/;"	f	namespace:testing::internal
+CmpHelperSTREQ	gtest.cc	/^AssertionResult CmpHelperSTREQ(const char* lhs_expression,$/;"	f	namespace:testing::internal
+CmpHelperSTRNE	gtest.cc	/^AssertionResult CmpHelperSTRNE(const char* s1_expression,$/;"	f	namespace:testing::internal
+CodePointToUtf8	gtest.cc	/^std::string CodePointToUtf8(UInt32 code_point) {$/;"	f	namespace:testing::internal
+ColoredPrintf	gtest.cc	/^void ColoredPrintf(GTestColor color, const char* fmt, ...) {$/;"	f	namespace:testing::internal
+ConcatPaths	gtest-filepath.cc	/^FilePath FilePath::ConcatPaths(const FilePath& directory,$/;"	f	class:testing::internal::FilePath
+ConditionalPrintAsText	gtest-printers.cc	/^void ConditionalPrintAsText(const char* str, size_t length, ostream* os) {$/;"	f	namespace:testing::internal::__anon5
+ConfigureStreamingOutput	gtest.cc	/^void UnitTestImpl::ConfigureStreamingOutput() {$/;"	f	class:testing::internal::UnitTestImpl
+ConfigureXmlOutput	gtest.cc	/^void UnitTestImpl::ConfigureXmlOutput() {$/;"	f	class:testing::internal::UnitTestImpl
+ContainsUnprintableControlCodes	gtest-printers.cc	/^bool ContainsUnprintableControlCodes(const char* str, size_t length) {$/;"	f	namespace:testing::internal::__anon5
+CountIf	gtest-internal-inl.h	/^inline int CountIf(const Container& c, Predicate predicate) {$/;"	f	namespace:testing::internal
+Create	gtest-death-test.cc	/^bool DeathTest::Create(const char* statement,$/;"	f	class:testing::internal::DeathTest
+Create	gtest-death-test.cc	/^bool DefaultDeathTestFactory::Create(const char* statement,$/;"	f	class:testing::internal::DefaultDeathTestFactory
+CreateCodePointFromUtf16SurrogatePair	gtest.cc	/^inline UInt32 CreateCodePointFromUtf16SurrogatePair(wchar_t first,$/;"	f	namespace:testing::internal
+CreateDirectoriesRecursively	gtest-filepath.cc	/^bool FilePath::CreateDirectoriesRecursively() const {$/;"	f	class:testing::internal::FilePath
+CreateFolder	gtest-filepath.cc	/^bool FilePath::CreateFolder() const {$/;"	f	class:testing::internal::FilePath
+CreateThread	gtest-port.cc	/^  static HANDLE CreateThread(Runnable* runnable,$/;"	f	class:testing::internal::__anon3::ThreadWithParamSupport
+CreateUnifiedDiff	gtest.cc	/^std::string CreateUnifiedDiff(const std::vector<std::string>& left,$/;"	f	namespace:testing::internal::edit_distance
+CurrentOsStackTraceExceptTop	gtest.cc	/^std::string UnitTestImpl::CurrentOsStackTraceExceptTop(int skip_count) {$/;"	f	class:testing::internal::UnitTestImpl
+DIED	gtest-death-test.cc	/^enum DeathTestOutcome { IN_PROGRESS, DIED, LIVED, RETURNED, THREW };$/;"	e	enum:testing::internal::DeathTestOutcome	file:
+DeathTest	gtest-death-test.cc	/^DeathTest::DeathTest() {$/;"	f	class:testing::internal::DeathTest
+DeathTestAbort	gtest-death-test.cc	/^static void DeathTestAbort(const std::string& message) {$/;"	f	namespace:testing::internal
+DeathTestImpl	gtest-death-test.cc	/^  DeathTestImpl(const char* a_statement, Matcher<const std::string&> matcher)$/;"	f	class:testing::internal::DeathTestImpl
+DeathTestImpl	gtest-death-test.cc	/^class DeathTestImpl : public DeathTest {$/;"	c	namespace:testing::internal	file:
+DeathTestOutcome	gtest-death-test.cc	/^enum DeathTestOutcome { IN_PROGRESS, DIED, LIVED, RETURNED, THREW };$/;"	g	namespace:testing::internal	file:
+DeathTestThreadWarning	gtest-death-test.cc	/^static std::string DeathTestThreadWarning(size_t thread_count) {$/;"	f	namespace:testing::internal
+DefaultGlobalTestPartResultReporter	gtest-internal-inl.h	/^class DefaultGlobalTestPartResultReporter$/;"	c	namespace:testing::internal
+DefaultGlobalTestPartResultReporter	gtest.cc	/^DefaultGlobalTestPartResultReporter::DefaultGlobalTestPartResultReporter($/;"	f	class:testing::internal::DefaultGlobalTestPartResultReporter
+DefaultPerThreadTestPartResultReporter	gtest-internal-inl.h	/^class DefaultPerThreadTestPartResultReporter$/;"	c	namespace:testing::internal
+DefaultPerThreadTestPartResultReporter	gtest.cc	/^DefaultPerThreadTestPartResultReporter::DefaultPerThreadTestPartResultReporter($/;"	f	class:testing::internal::DefaultPerThreadTestPartResultReporter
+Delete	gtest-internal-inl.h	/^static void Delete(T* x) {$/;"	f	namespace:testing::internal
+DirectoryExists	gtest-filepath.cc	/^bool FilePath::DirectoryExists() const {$/;"	f	class:testing::internal::FilePath
+DoubleLE	gtest.cc	/^AssertionResult DoubleLE(const char* expr1, const char* expr2,$/;"	f	namespace:testing
+DoubleNearPredFormat	gtest.cc	/^AssertionResult DoubleNearPredFormat(const char* expr1,$/;"	f	namespace:testing::internal
+EndsWithCaseInsensitive	gtest.cc	/^bool String::EndsWithCaseInsensitive($/;"	f	class:testing::internal::String
+EqFailure	gtest.cc	/^AssertionResult EqFailure(const char* lhs_expression,$/;"	f	namespace:testing::internal
+EscapeJson	gtest.cc	/^std::string JsonUnitTestResultPrinter::EscapeJson(const std::string& str) {$/;"	f	class:testing::internal::JsonUnitTestResultPrinter
+EscapeXml	gtest.cc	/^std::string XmlUnitTestResultPrinter::EscapeXml($/;"	f	class:testing::internal::XmlUnitTestResultPrinter
+EscapeXmlAttribute	gtest.cc	/^  static std::string EscapeXmlAttribute(const std::string& str) {$/;"	f	class:testing::internal::XmlUnitTestResultPrinter	file:
+EscapeXmlText	gtest.cc	/^  static std::string EscapeXmlText(const char* str) {$/;"	f	class:testing::internal::XmlUnitTestResultPrinter	file:
+EventForwardingEnabled	gtest.cc	/^bool TestEventListeners::EventForwardingEnabled() const {$/;"	f	class:testing::TestEventListeners
+ExecDeathTest	gtest-death-test.cc	/^  ExecDeathTest(const char* a_statement, Matcher<const std::string&> matcher,$/;"	f	class:testing::internal::ExecDeathTest
+ExecDeathTest	gtest-death-test.cc	/^class ExecDeathTest : public ForkingDeathTest {$/;"	c	namespace:testing::internal	file:
+ExecDeathTestArgs	gtest-death-test.cc	/^struct ExecDeathTestArgs {$/;"	s	namespace:testing::internal	file:
+ExecDeathTestChildMain	gtest-death-test.cc	/^static int ExecDeathTestChildMain(void* child_arg) {$/;"	f	namespace:testing::internal
+ExecDeathTestSpawnChild	gtest-death-test.cc	/^static pid_t ExecDeathTestSpawnChild(char* const* argv, int close_fd) {$/;"	f	namespace:testing::internal
+ExitSummary	gtest-death-test.cc	/^static std::string ExitSummary(int exit_code) {$/;"	f	namespace:testing::internal
+ExitedUnsuccessfully	gtest-death-test.cc	/^bool ExitedUnsuccessfully(int exit_status) {$/;"	f	namespace:testing::internal
+ExitedWithCode	gtest-death-test.cc	/^ExitedWithCode::ExitedWithCode(int exit_code) : exit_code_(exit_code) {$/;"	f	class:testing::ExitedWithCode
+ExtractSummary	gtest-test-part.cc	/^std::string TestPartResult::ExtractSummary(const char* message) {$/;"	f	class:testing::TestPartResult
+FailFromInternalError	gtest-death-test.cc	/^static void FailFromInternalError(int fd) {$/;"	f	namespace:testing::internal
+Failed	gtest-internal-inl.h	/^  bool Failed() const {$/;"	f	class:testing::internal::UnitTestImpl
+Failed	gtest.cc	/^bool TestResult::Failed() const {$/;"	f	class:testing::TestResult
+Failed	gtest.cc	/^bool UnitTest::Failed() const { return impl()->Failed(); }$/;"	f	class:testing::UnitTest
+FileOrDirectoryExists	gtest-filepath.cc	/^bool FilePath::FileOrDirectoryExists() const {$/;"	f	class:testing::internal::FilePath
+FilterMatchesTest	gtest.cc	/^bool UnitTestOptions::FilterMatchesTest(const std::string& test_suite_name,$/;"	f	class:testing::internal::UnitTestOptions
+FilterTests	gtest.cc	/^int UnitTestImpl::FilterTests(ReactionToSharding shard_tests) {$/;"	f	class:testing::internal::UnitTestImpl
+FindLastPathSeparator	gtest-filepath.cc	/^const char* FilePath::FindLastPathSeparator() const {$/;"	f	class:testing::internal::FilePath
+FlagToEnvVar	gtest-port.cc	/^static std::string FlagToEnvVar(const char* flag) {$/;"	f	namespace:testing::internal
+FloatLE	gtest.cc	/^AssertionResult FloatLE(const char* expr1, const char* expr2,$/;"	f	namespace:testing
+FloatingPointLE	gtest.cc	/^AssertionResult FloatingPointLE(const char* expr1,$/;"	f	namespace:testing::internal
+FlushEdits	gtest.cc	/^  void FlushEdits() {$/;"	f	class:testing::internal::edit_distance::__anon7::Hunk	file:
+ForEach	gtest-internal-inl.h	/^void ForEach(const Container& c, Functor functor) {$/;"	f	namespace:testing::internal
+ForkingDeathTest	gtest-death-test.cc	/^ForkingDeathTest::ForkingDeathTest(const char* a_statement,$/;"	f	class:testing::internal::ForkingDeathTest
+ForkingDeathTest	gtest-death-test.cc	/^class ForkingDeathTest : public DeathTestImpl {$/;"	c	namespace:testing::internal	file:
+FormatBool	gtest-internal-inl.h	/^  std::string FormatBool(bool value) { return value ? "1" : "0"; }$/;"	f	class:testing::internal::StreamingListener
+FormatByte	gtest.cc	/^std::string String::FormatByte(unsigned char value) {$/;"	f	class:testing::internal::String
+FormatCompilerIndependentFileLocation	gtest-port.cc	/^GTEST_API_ ::std::string FormatCompilerIndependentFileLocation($/;"	f	namespace:testing::internal
+FormatCountableNoun	gtest.cc	/^static std::string FormatCountableNoun(int count,$/;"	f	namespace:testing
+FormatCxxExceptionMessage	gtest.cc	/^static std::string FormatCxxExceptionMessage(const char* description,$/;"	f	namespace:testing::internal
+FormatDeathTestOutput	gtest-death-test.cc	/^static ::std::string FormatDeathTestOutput(const ::std::string& output) {$/;"	f	namespace:testing::internal
+FormatEpochTimeInMillisAsIso8601	gtest.cc	/^std::string FormatEpochTimeInMillisAsIso8601(TimeInMillis ms) {$/;"	f	namespace:testing::internal
+FormatEpochTimeInMillisAsRFC3339	gtest.cc	/^static std::string FormatEpochTimeInMillisAsRFC3339(TimeInMillis ms) {$/;"	f	namespace:testing::internal
+FormatFileLocation	gtest-port.cc	/^GTEST_API_ ::std::string FormatFileLocation(const char* file, int line) {$/;"	f	namespace:testing::internal
+FormatHexInt	gtest.cc	/^std::string String::FormatHexInt(int value) {$/;"	f	class:testing::internal::String
+FormatHexUInt32	gtest.cc	/^std::string String::FormatHexUInt32(UInt32 value) {$/;"	f	class:testing::internal::String
+FormatIntWidth2	gtest.cc	/^std::string String::FormatIntWidth2(int value) {$/;"	f	class:testing::internal::String
+FormatRegexSyntaxError	gtest-port.cc	/^static std::string FormatRegexSyntaxError(const char* regex, int index) {$/;"	f	namespace:testing::internal
+FormatSehExceptionMessage	gtest.cc	/^static std::string* FormatSehExceptionMessage(DWORD exception_code,$/;"	f	namespace:testing
+FormatTestCount	gtest.cc	/^static std::string FormatTestCount(int test_count) {$/;"	f	namespace:testing
+FormatTestSuiteCount	gtest.cc	/^static std::string FormatTestSuiteCount(int test_suite_count) {$/;"	f	namespace:testing
+FormatTimeInMillisAsDuration	gtest.cc	/^static std::string FormatTimeInMillisAsDuration(TimeInMillis ms) {$/;"	f	namespace:testing::internal
+FormatTimeInMillisAsSeconds	gtest.cc	/^std::string FormatTimeInMillisAsSeconds(TimeInMillis ms) {$/;"	f	namespace:testing::internal
+FormatWordList	gtest.cc	/^static std::string FormatWordList(const std::vector<std::string>& words) {$/;"	f	namespace:testing
+FuchsiaDeathTest	gtest-death-test.cc	/^  FuchsiaDeathTest(const char* a_statement, Matcher<const std::string&> matcher,$/;"	f	class:testing::internal::FuchsiaDeathTest
+FuchsiaDeathTest	gtest-death-test.cc	/^class FuchsiaDeathTest : public DeathTestImpl {$/;"	c	namespace:testing::internal	file:
+FullMatch	gtest-port.cc	/^bool RE::FullMatch(const char* str, const RE& re) {$/;"	f	class:testing::internal::RE
+GTEST_ATTRIBUTE_UNUSED_	gtest-internal-inl.h	/^} GTEST_ATTRIBUTE_UNUSED_;$/;"	m	namespace:testing::internal	typeref:class:testing::internal::GTestFlagSaver
+GTEST_DEATH_TEST_CHECK_	gtest-death-test.cc	/^# define GTEST_DEATH_TEST_CHECK_(/;"	d	file:
+GTEST_DEATH_TEST_CHECK_SYSCALL_	gtest-death-test.cc	/^# define GTEST_DEATH_TEST_CHECK_SYSCALL_(/;"	d	file:
+GTEST_HAS_GETTIMEOFDAY_	gtest.cc	/^#  define GTEST_HAS_GETTIMEOFDAY_ /;"	d	file:
+GTEST_HAS_GETTIMEOFDAY_	gtest.cc	/^# define GTEST_HAS_GETTIMEOFDAY_ /;"	d	file:
+GTEST_IMPL_CMP_HELPER_	gtest.cc	/^#define GTEST_IMPL_CMP_HELPER_(/;"	d	file:
+GTEST_IMPL_CMP_HELPER_	gtest.cc	/^#undef GTEST_IMPL_CMP_HELPER_$/;"	d	file:
+GTEST_LOCK_EXCLUDED_	gtest.cc	/^    GTEST_LOCK_EXCLUDED_(mutex_) {$/;"	f	namespace:testing
+GTEST_LOCK_EXCLUDED_	gtest.cc	/^    GTEST_LOCK_EXCLUDED_(mutex_) {$/;"	f	namespace:testing::internal
+GTEST_LOCK_EXCLUDED_	gtest.cc	/^    const std::string& os_stack_trace) GTEST_LOCK_EXCLUDED_(mutex_) {$/;"	f	namespace:testing
+GTEST_LOCK_EXCLUDED_	gtest.cc	/^UnitTest::parameterized_test_registry() GTEST_LOCK_EXCLUDED_(mutex_) {$/;"	f	namespace:testing
+GTEST_LOCK_EXCLUDED_	gtest.cc	/^void OsStackTraceGetter::UponLeavingGTest() GTEST_LOCK_EXCLUDED_(mutex_) {$/;"	f	namespace:testing::internal
+GTEST_NO_INLINE_	gtest-death-test.cc	/^                                  bool* result) GTEST_NO_INLINE_;$/;"	m	namespace:testing::internal	file:
+GTEST_NO_INLINE_	gtest-internal-inl.h	/^  std::string CurrentOsStackTraceExceptTop(int skip_count) GTEST_NO_INLINE_;$/;"	m	class:testing::internal::UnitTestImpl
+GTEST_PATH_MAX_	gtest-filepath.cc	/^# define GTEST_PATH_MAX_ /;"	d	file:
+GTEST_REPEATER_METHOD_	gtest.cc	/^#define GTEST_REPEATER_METHOD_(/;"	d	file:
+GTEST_REPEATER_METHOD_	gtest.cc	/^#undef GTEST_REPEATER_METHOD_$/;"	d	file:
+GTEST_REVERSE_REPEATER_METHOD_	gtest.cc	/^#define GTEST_REVERSE_REPEATER_METHOD_(/;"	d	file:
+GTEST_REVERSE_REPEATER_METHOD_	gtest.cc	/^#undef GTEST_REVERSE_REPEATER_METHOD_$/;"	d	file:
+GTEST_SRC_GTEST_INTERNAL_INL_H_	gtest-internal-inl.h	/^#define GTEST_SRC_GTEST_INTERNAL_INL_H_$/;"	d
+GTestFlagSaver	gtest-internal-inl.h	/^  GTestFlagSaver() {$/;"	f	class:testing::internal::GTestFlagSaver
+GTestFlagSaver	gtest-internal-inl.h	/^class GTestFlagSaver {$/;"	c	namespace:testing::internal
+GTestIsInitialized	gtest.cc	/^static bool GTestIsInitialized() { return GetArgvs().size() > 0; }$/;"	f	namespace:testing::internal
+GTestLog	gtest-port.cc	/^GTestLog::GTestLog(GTestLogSeverity severity, const char* file, int line)$/;"	f	class:testing::internal::GTestLog
+GTestShouldProcessSEH	gtest.cc	/^int UnitTestOptions::GTestShouldProcessSEH(DWORD exception_code) {$/;"	f	class:testing::internal::UnitTestOptions
+Generate	gtest.cc	/^UInt32 Random::Generate(UInt32 range) {$/;"	f	class:testing::internal::Random
+GenerateUniqueFileName	gtest-filepath.cc	/^FilePath FilePath::GenerateUniqueFileName(const FilePath& directory,$/;"	f	class:testing::internal::FilePath
+Get	gtest-port.cc	/^AutoHandle::Handle AutoHandle::Get() const {$/;"	f	class:testing::internal::AutoHandle
+GetAbsolutePathToOutputFile	gtest.cc	/^std::string UnitTestOptions::GetAbsolutePathToOutputFile() {$/;"	f	class:testing::internal::UnitTestOptions
+GetAnsiColorCode	gtest.cc	/^static const char* GetAnsiColorCode(GTestColor color) {$/;"	f	namespace:testing::internal
+GetArgvs	gtest.cc	/^::std::vector<std::string> GetArgvs() {$/;"	f	namespace:testing::internal
+GetArgvsForDeathTestChildProcess	gtest-death-test.cc	/^  static ::std::vector<std::string> GetArgvsForDeathTestChildProcess() {$/;"	f	class:testing::internal::ExecDeathTest	file:
+GetBitOffset	gtest.cc	/^static int GetBitOffset(WORD color_mask) {$/;"	f	namespace:testing::internal
+GetBoolAssertionFailureMessage	gtest.cc	/^std::string GetBoolAssertionFailureMessage($/;"	f	namespace:testing::internal
+GetCapturedStderr	gtest-port.cc	/^std::string GetCapturedStderr() {$/;"	f	namespace:testing::internal
+GetCapturedStdout	gtest-port.cc	/^std::string GetCapturedStdout() {$/;"	f	namespace:testing::internal
+GetCapturedStream	gtest-port.cc	/^static std::string GetCapturedStream(CapturedStream** captured_stream) {$/;"	f	namespace:testing::internal
+GetCapturedString	gtest-port.cc	/^  std::string GetCapturedString() {$/;"	f	class:testing::internal::CapturedStream
+GetColorAttribute	gtest.cc	/^static WORD GetColorAttribute(GTestColor color) {$/;"	f	namespace:testing::internal
+GetCurrentDir	gtest-filepath.cc	/^FilePath FilePath::GetCurrentDir() {$/;"	f	class:testing::internal::FilePath
+GetCurrentExecutableName	gtest.cc	/^FilePath GetCurrentExecutableName() {$/;"	f	namespace:testing::internal
+GetCurrentOsStackTraceExceptTop	gtest.cc	/^std::string GetCurrentOsStackTraceExceptTop(UnitTest* \/*unit_test*\/,$/;"	f	namespace:testing::internal
+GetDefaultFilter	gtest.cc	/^static const char* GetDefaultFilter() {$/;"	f	namespace:testing
+GetElementOr	gtest-internal-inl.h	/^inline E GetElementOr(const std::vector<E>& v, int i, E default_value) {$/;"	f	namespace:testing::internal
+GetEnviron	gtest-death-test.cc	/^inline char** GetEnviron() { return environ; }$/;"	f	namespace:testing::internal
+GetEnviron	gtest-death-test.cc	/^inline char** GetEnviron() {$/;"	f	namespace:testing::internal
+GetErrorLogs	gtest-death-test.cc	/^std::string DeathTestImpl::GetErrorLogs() {$/;"	f	class:testing::internal::DeathTestImpl
+GetErrorLogs	gtest-death-test.cc	/^std::string FuchsiaDeathTest::GetErrorLogs() {$/;"	f	class:testing::internal::FuchsiaDeathTest
+GetFileSize	gtest-port.cc	/^size_t GetFileSize(FILE* file) {$/;"	f	namespace:testing::internal
+GetGlobalTestPartResultReporter	gtest.cc	/^UnitTestImpl::GetGlobalTestPartResultReporter() {$/;"	f	class:testing::internal::UnitTestImpl
+GetId	gtest.cc	/^  size_t GetId(const std::string& str) {$/;"	f	class:testing::internal::edit_distance::__anon6::InternalStrings
+GetInjectableArgvs	gtest-port.cc	/^std::vector<std::string> GetInjectableArgvs() {$/;"	f	namespace:testing::internal
+GetInstance	gtest.cc	/^UnitTest* UnitTest::GetInstance() {$/;"	f	class:testing::UnitTest
+GetLastErrnoDescription	gtest-death-test.cc	/^std::string GetLastErrnoDescription() {$/;"	f	namespace:testing::internal
+GetMutableSuiteCase	gtest-internal-inl.h	/^  TestSuite* GetMutableSuiteCase(int i) {$/;"	f	class:testing::internal::UnitTestImpl
+GetMutableTestInfo	gtest.cc	/^TestInfo* TestSuite::GetMutableTestInfo(int i) {$/;"	f	class:testing::TestSuite
+GetMutableTestSuite	gtest.cc	/^TestSuite* UnitTest::GetMutableTestSuite(int i) {$/;"	f	class:testing::UnitTest
+GetNewColor	gtest.cc	/^static WORD GetNewColor(GTestColor color, WORD old_color_attrs) {$/;"	f	namespace:testing::internal
+GetNextRandomSeed	gtest-internal-inl.h	/^inline int GetNextRandomSeed(int seed) {$/;"	f	namespace:testing::internal
+GetOutputFormat	gtest.cc	/^std::string UnitTestOptions::GetOutputFormat() {$/;"	f	class:testing::internal::UnitTestOptions
+GetRandomSeedFromFlag	gtest-internal-inl.h	/^inline int GetRandomSeedFromFlag(Int32 random_seed_flag) {$/;"	f	namespace:testing::internal
+GetReservedAttributesForElement	gtest.cc	/^static std::vector<std::string> GetReservedAttributesForElement($/;"	f	namespace:testing
+GetReservedOutputAttributesForElement	gtest.cc	/^static std::vector<std::string> GetReservedOutputAttributesForElement($/;"	f	namespace:testing
+GetStatusFileDescriptor	gtest-death-test.cc	/^static int GetStatusFileDescriptor(unsigned int parent_process_id,$/;"	f	namespace:testing::internal
+GetString	gtest.cc	/^std::string Message::GetString() const {$/;"	f	class:testing::Message
+GetTestCase	gtest-internal-inl.h	/^  TestCase* GetTestCase(const char* test_case_name, const char* type_param,$/;"	f	class:testing::internal::UnitTestImpl
+GetTestCase	gtest-internal-inl.h	/^  const TestCase* GetTestCase(int i) const { return GetTestSuite(i); }$/;"	f	class:testing::internal::UnitTestImpl
+GetTestCase	gtest.cc	/^const TestCase* UnitTest::GetTestCase(int i) const {$/;"	f	class:testing::UnitTest
+GetTestInfo	gtest.cc	/^const TestInfo* TestSuite::GetTestInfo(int i) const {$/;"	f	class:testing::TestSuite
+GetTestPartResult	gtest-test-part.cc	/^const TestPartResult& TestPartResultArray::GetTestPartResult(int index) const {$/;"	f	class:testing::TestPartResultArray
+GetTestPartResult	gtest.cc	/^const TestPartResult& TestResult::GetTestPartResult(int i) const {$/;"	f	class:testing::TestResult
+GetTestPartResultReporterForCurrentThread	gtest.cc	/^UnitTestImpl::GetTestPartResultReporterForCurrentThread() {$/;"	f	class:testing::internal::UnitTestImpl
+GetTestProperty	gtest.cc	/^const TestProperty& TestResult::GetTestProperty(int i) const {$/;"	f	class:testing::TestResult
+GetTestSuite	gtest-internal-inl.h	/^  const TestSuite* GetTestSuite(int i) const {$/;"	f	class:testing::internal::UnitTestImpl
+GetTestSuite	gtest.cc	/^TestSuite* UnitTestImpl::GetTestSuite($/;"	f	class:testing::internal::UnitTestImpl
+GetTestSuite	gtest.cc	/^const TestSuite* UnitTest::GetTestSuite(int i) const {$/;"	f	class:testing::UnitTest
+GetTestTypeId	gtest.cc	/^TypeId GetTestTypeId() {$/;"	f	namespace:testing::internal
+GetThreadCount	gtest-port.cc	/^size_t GetThreadCount() {$/;"	f	namespace:testing::internal
+GetThreadLocalsMapLocked	gtest-port.cc	/^  static ThreadIdToThreadLocals* GetThreadLocalsMapLocked() {$/;"	f	class:testing::internal::ThreadLocalRegistryImpl	file:
+GetTimeInMillis	gtest.cc	/^TimeInMillis GetTimeInMillis() {$/;"	f	namespace:testing::internal
+GetUnitTestImpl	gtest-internal-inl.h	/^inline UnitTestImpl* GetUnitTestImpl() {$/;"	f	namespace:testing::internal
+GetValueOnCurrentThread	gtest-port.cc	/^  static ThreadLocalValueHolderBase* GetValueOnCurrentThread($/;"	f	class:testing::internal::ThreadLocalRegistryImpl
+GetValueOnCurrentThread	gtest-port.cc	/^ThreadLocalValueHolderBase* ThreadLocalRegistry::GetValueOnCurrentThread($/;"	f	class:testing::internal::ThreadLocalRegistry
+GoogleTestFailureException	gtest.cc	/^GoogleTestFailureException::GoogleTestFailureException($/;"	f	class:testing::internal::GoogleTestFailureException
+HONOR_SHARDING_PROTOCOL	gtest-internal-inl.h	/^    HONOR_SHARDING_PROTOCOL,$/;"	e	enum:testing::internal::UnitTestImpl::ReactionToSharding
+HRESULTFailureHelper	gtest.cc	/^AssertionResult HRESULTFailureHelper(const char* expr,$/;"	f	namespace:testing::internal::__anon10
+HandleExceptionsInMethodIfSupported	gtest.cc	/^Result HandleExceptionsInMethodIfSupported($/;"	f	namespace:testing::internal
+HandleSehExceptionsInMethodIfSupported	gtest.cc	/^Result HandleSehExceptionsInMethodIfSupported($/;"	f	namespace:testing::internal
+HasFatalFailure	gtest.cc	/^bool Test::HasFatalFailure() {$/;"	f	class:testing::Test
+HasFatalFailure	gtest.cc	/^bool TestResult::HasFatalFailure() const {$/;"	f	class:testing::TestResult
+HasGoogleTestFlagPrefix	gtest.cc	/^static bool HasGoogleTestFlagPrefix(const char* str) {$/;"	f	namespace:testing::internal
+HasNewFatalFailureHelper	gtest-test-part.cc	/^HasNewFatalFailureHelper::HasNewFatalFailureHelper()$/;"	f	class:testing::internal::HasNewFatalFailureHelper
+HasNonfatalFailure	gtest.cc	/^bool Test::HasNonfatalFailure() {$/;"	f	class:testing::Test
+HasNonfatalFailure	gtest.cc	/^bool TestResult::HasNonfatalFailure() const {$/;"	f	class:testing::TestResult
+HasOneFailure	gtest.cc	/^static AssertionResult HasOneFailure(const char* \/* results_expr *\/,$/;"	f	namespace:testing::internal
+HasSameFixtureClass	gtest.cc	/^bool Test::HasSameFixtureClass() {$/;"	f	class:testing::Test
+Hunk	gtest.cc	/^  Hunk(size_t left_start, size_t right_start)$/;"	f	class:testing::internal::edit_distance::__anon7::Hunk
+Hunk	gtest.cc	/^class Hunk {$/;"	c	namespace:testing::internal::edit_distance::__anon7	file:
+IGNORE_SHARDING_PROTOCOL	gtest-internal-inl.h	/^    IGNORE_SHARDING_PROTOCOL$/;"	e	enum:testing::internal::UnitTestImpl::ReactionToSharding
+IN_PROGRESS	gtest-death-test.cc	/^enum DeathTestOutcome { IN_PROGRESS, DIED, LIVED, RETURNED, THREW };$/;"	e	enum:testing::internal::DeathTestOutcome	file:
+IdMap	gtest.cc	/^  typedef std::map<std::string, size_t> IdMap;$/;"	t	class:testing::internal::edit_distance::__anon6::InternalStrings	file:
+InDeathTestChild	gtest-death-test.cc	/^bool InDeathTestChild() {$/;"	f	namespace:testing::internal
+Indent	gtest.cc	/^static inline std::string Indent(size_t width) {$/;"	f	namespace:testing::internal
+Init	gtest-port.cc	/^void RE::Init(const char* regex) {$/;"	f	class:testing::internal::RE
+Init	gtest.cc	/^void ScopedFakeTestPartResultReporter::Init() {$/;"	f	class:testing::ScopedFakeTestPartResultReporter
+InitDeathTestSubprocessControlInfo	gtest-internal-inl.h	/^  void InitDeathTestSubprocessControlInfo() {$/;"	f	class:testing::internal::UnitTestImpl
+InitGoogleTest	gtest.cc	/^void InitGoogleTest() {$/;"	f	namespace:testing
+InitGoogleTest	gtest.cc	/^void InitGoogleTest(int* argc, char** argv) {$/;"	f	namespace:testing
+InitGoogleTest	gtest.cc	/^void InitGoogleTest(int* argc, wchar_t** argv) {$/;"	f	namespace:testing
+InitGoogleTestImpl	gtest.cc	/^void InitGoogleTestImpl(int* argc, CharType** argv) {$/;"	f	namespace:testing::internal
+Int32FromEnvOrDie	gtest.cc	/^Int32 Int32FromEnvOrDie(const char* var, Int32 default_val) {$/;"	f	namespace:testing::internal
+Int32FromGTestEnv	gtest-port.cc	/^Int32 Int32FromGTestEnv(const char* flag, Int32 default_value) {$/;"	f	namespace:testing::internal
+InternalStrings	gtest.cc	/^class InternalStrings {$/;"	c	namespace:testing::internal::edit_distance::__anon6	file:
+IsAbsolutePath	gtest-filepath.cc	/^bool FilePath::IsAbsolutePath() const {$/;"	f	class:testing::internal::FilePath
+IsAsciiDigit	gtest-port.cc	/^bool IsAsciiDigit(char ch) { return '0' <= ch && ch <= '9'; }$/;"	f	namespace:testing::internal
+IsAsciiPunct	gtest-port.cc	/^bool IsAsciiPunct(char ch) {$/;"	f	namespace:testing::internal
+IsAsciiWhiteSpace	gtest-port.cc	/^bool IsAsciiWhiteSpace(char ch) { return IsInSet(ch, " \\f\\n\\r\\t\\v"); }$/;"	f	namespace:testing::internal
+IsAsciiWordChar	gtest-port.cc	/^bool IsAsciiWordChar(char ch) {$/;"	f	namespace:testing::internal
+IsCloseable	gtest-port.cc	/^bool AutoHandle::IsCloseable() const {$/;"	f	class:testing::internal::AutoHandle
+IsDirectory	gtest-filepath.cc	/^bool FilePath::IsDirectory() const {$/;"	f	class:testing::internal::FilePath
+IsHRESULTFailure	gtest.cc	/^AssertionResult IsHRESULTFailure(const char* expr, long hr) {  \/\/ NOLINT$/;"	f	namespace:testing::internal
+IsHRESULTSuccess	gtest.cc	/^AssertionResult IsHRESULTSuccess(const char* expr, long hr) {  \/\/ NOLINT$/;"	f	namespace:testing::internal
+IsInSet	gtest-port.cc	/^bool IsInSet(char ch, const char* str) {$/;"	f	namespace:testing::internal
+IsNormalizableWhitespace	gtest.cc	/^  static bool IsNormalizableWhitespace(char c) {$/;"	f	class:testing::internal::XmlUnitTestResultPrinter	file:
+IsNotSubstring	gtest.cc	/^AssertionResult IsNotSubstring($/;"	f	namespace:testing
+IsPathSeparator	gtest-filepath.cc	/^static bool IsPathSeparator(char c) {$/;"	f	namespace:testing::internal
+IsPrintableAscii	gtest-printers.cc	/^inline bool IsPrintableAscii(wchar_t c) {$/;"	f	namespace:testing::internal
+IsRepeat	gtest-port.cc	/^bool IsRepeat(char ch) { return IsInSet(ch, "?*+"); }$/;"	f	namespace:testing::internal
+IsRootDirectory	gtest-filepath.cc	/^bool FilePath::IsRootDirectory() const {$/;"	f	class:testing::internal::FilePath
+IsSkipped	gtest.cc	/^bool Test::IsSkipped() {$/;"	f	class:testing::Test
+IsSubstring	gtest.cc	/^AssertionResult IsSubstring($/;"	f	namespace:testing
+IsSubstringImpl	gtest.cc	/^AssertionResult IsSubstringImpl($/;"	f	namespace:testing::__anon9
+IsSubstringPred	gtest.cc	/^bool IsSubstringPred(const StringType& needle,$/;"	f	namespace:testing::__anon9
+IsSubstringPred	gtest.cc	/^bool IsSubstringPred(const char* needle, const char* haystack) {$/;"	f	namespace:testing::__anon9
+IsSubstringPred	gtest.cc	/^bool IsSubstringPred(const wchar_t* needle, const wchar_t* haystack) {$/;"	f	namespace:testing::__anon9
+IsTrue	gtest.cc	/^bool IsTrue(bool condition) { return condition; }$/;"	f	namespace:testing::internal
+IsUTF8TrailByte	gtest-printers.cc	/^bool IsUTF8TrailByte(unsigned char t) { return 0x80 <= t && t<= 0xbf; }$/;"	f	namespace:testing::internal::__anon5
+IsUtf16SurrogatePair	gtest.cc	/^inline bool IsUtf16SurrogatePair(wchar_t first, wchar_t second) {$/;"	f	namespace:testing::internal
+IsValidEscape	gtest-port.cc	/^bool IsValidEscape(char c) {$/;"	f	namespace:testing::internal
+IsValidUTF8	gtest-printers.cc	/^bool IsValidUTF8(const char* str, size_t length) {$/;"	f	namespace:testing::internal::__anon5
+IsValidXmlCharacter	gtest.cc	/^  static bool IsValidXmlCharacter(char c) {$/;"	f	class:testing::internal::XmlUnitTestResultPrinter	file:
+Join	gtest-port.cc	/^void ThreadWithParamBase::Join() {$/;"	f	class:testing::internal::ThreadWithParamBase
+JsonUnitTestResultPrinter	gtest.cc	/^JsonUnitTestResultPrinter::JsonUnitTestResultPrinter(const char* output_file)$/;"	f	class:testing::internal::JsonUnitTestResultPrinter
+JsonUnitTestResultPrinter	gtest.cc	/^class JsonUnitTestResultPrinter : public EmptyTestEventListener {$/;"	c	namespace:testing::internal	file:
+KERN_PROC	gtest-port.cc	/^#define KERN_PROC /;"	d	file:
+KERN_PROC	gtest-port.cc	/^#undef KERN_PROC$/;"	d	file:
+KP_NLWP	gtest-port.cc	/^#define KP_NLWP(/;"	d	file:
+KilledBySignal	gtest-death-test.cc	/^KilledBySignal::KilledBySignal(int signum) : signum_(signum) {$/;"	f	class:testing::KilledBySignal
+LIVED	gtest-death-test.cc	/^enum DeathTestOutcome { IN_PROGRESS, DIED, LIVED, RETURNED, THREW };$/;"	e	enum:testing::internal::DeathTestOutcome	file:
+LastMessage	gtest-death-test.cc	/^const char* DeathTest::LastMessage() {$/;"	f	class:testing::internal::DeathTest
+ListTestsMatchingFilter	gtest.cc	/^void UnitTestImpl::ListTestsMatchingFilter() {$/;"	f	class:testing::internal::UnitTestImpl
+ListTestsMatchingFilter	gtest.cc	/^void XmlUnitTestResultPrinter::ListTestsMatchingFilter($/;"	f	class:testing::internal::XmlUnitTestResultPrinter
+LoadFlagsFromFile	gtest.cc	/^static void LoadFlagsFromFile(const std::string& path) {$/;"	f	namespace:testing::internal
+Lock	gtest-port.cc	/^void Mutex::Lock() {$/;"	f	class:testing::internal::Mutex
+MakeAndRegisterTestInfo	gtest.cc	/^TestInfo* MakeAndRegisterTestInfo($/;"	f	namespace:testing::internal
+MakeConnection	gtest.cc	/^void StreamingListener::SocketWriter::MakeConnection() {$/;"	f	class:testing::internal::StreamingListener::SocketWriter
+MakeFileName	gtest-filepath.cc	/^FilePath FilePath::MakeFileName(const FilePath& directory,$/;"	f	class:testing::internal::FilePath
+MatchRegexAnywhere	gtest-port.cc	/^bool MatchRegexAnywhere(const char* regex, const char* str) {$/;"	f	namespace:testing::internal
+MatchRegexAtHead	gtest-port.cc	/^bool MatchRegexAtHead(const char* regex, const char* str) {$/;"	f	namespace:testing::internal
+MatchRepetitionAndRegexAtHead	gtest-port.cc	/^bool MatchRepetitionAndRegexAtHead($/;"	f	namespace:testing::internal
+Matcher	gtest-matchers.cc	/^Matcher<absl::string_view>::Matcher(absl::string_view s) {$/;"	f	class:testing::Matcher
+Matcher	gtest-matchers.cc	/^Matcher<absl::string_view>::Matcher(const char* s) {$/;"	f	class:testing::Matcher
+Matcher	gtest-matchers.cc	/^Matcher<absl::string_view>::Matcher(const std::string& s) { *this = Eq(s); }$/;"	f	class:testing::Matcher
+Matcher	gtest-matchers.cc	/^Matcher<const absl::string_view&>::Matcher(absl::string_view s) {$/;"	f	class:testing::Matcher
+Matcher	gtest-matchers.cc	/^Matcher<const absl::string_view&>::Matcher(const char* s) {$/;"	f	class:testing::Matcher
+Matcher	gtest-matchers.cc	/^Matcher<const absl::string_view&>::Matcher(const std::string& s) {$/;"	f	class:testing::Matcher
+Matcher	gtest-matchers.cc	/^Matcher<const std::string&>::Matcher(const char* s) {$/;"	f	class:testing::Matcher
+Matcher	gtest-matchers.cc	/^Matcher<const std::string&>::Matcher(const std::string& s) { *this = Eq(s); }$/;"	f	class:testing::Matcher
+Matcher	gtest-matchers.cc	/^Matcher<std::string>::Matcher(const char* s) { *this = Eq(std::string(s)); }$/;"	f	class:testing::Matcher
+Matcher	gtest-matchers.cc	/^Matcher<std::string>::Matcher(const std::string& s) { *this = Eq(s); }$/;"	f	class:testing::Matcher
+MatchesFilter	gtest.cc	/^bool UnitTestOptions::MatchesFilter($/;"	f	class:testing::internal::UnitTestOptions
+MemoryIsNotDeallocated	gtest-port.cc	/^  MemoryIsNotDeallocated() : old_crtdbg_flag_(0) {$/;"	f	class:testing::internal::__anon2::MemoryIsNotDeallocated
+MemoryIsNotDeallocated	gtest-port.cc	/^class MemoryIsNotDeallocated$/;"	c	namespace:testing::internal::__anon2	file:
+Message	gtest.cc	/^Message::Message() : ss_(new ::std::stringstream) {$/;"	f	class:testing::Message
+Mutex	gtest-port.cc	/^Mutex::Mutex()$/;"	f	class:testing::internal::Mutex
+NoExecDeathTest	gtest-death-test.cc	/^  NoExecDeathTest(const char* a_statement, Matcher<const std::string&> matcher)$/;"	f	class:testing::internal::NoExecDeathTest
+NoExecDeathTest	gtest-death-test.cc	/^class NoExecDeathTest : public ForkingDeathTest {$/;"	c	namespace:testing::internal	file:
+Normalize	gtest-filepath.cc	/^void FilePath::Normalize() {$/;"	f	class:testing::internal::FilePath
+Notification	gtest-port.cc	/^Notification::Notification()$/;"	f	class:testing::internal::Notification
+Notify	gtest-port.cc	/^void Notification::Notify() {$/;"	f	class:testing::internal::Notification
+OnEnvironmentsSetUpStart	gtest.cc	/^void PrettyUnitTestResultPrinter::OnEnvironmentsSetUpStart($/;"	f	class:testing::internal::PrettyUnitTestResultPrinter
+OnEnvironmentsTearDownStart	gtest.cc	/^void PrettyUnitTestResultPrinter::OnEnvironmentsTearDownStart($/;"	f	class:testing::internal::PrettyUnitTestResultPrinter
+OnTestCaseEnd	gtest.cc	/^void PrettyUnitTestResultPrinter::OnTestCaseEnd(const TestCase& test_case) {$/;"	f	class:testing::internal::PrettyUnitTestResultPrinter
+OnTestCaseStart	gtest.cc	/^void PrettyUnitTestResultPrinter::OnTestCaseStart(const TestCase& test_case) {$/;"	f	class:testing::internal::PrettyUnitTestResultPrinter
+OnTestEnd	gtest.cc	/^void PrettyUnitTestResultPrinter::OnTestEnd(const TestInfo& test_info) {$/;"	f	class:testing::internal::PrettyUnitTestResultPrinter
+OnTestIterationEnd	gtest.cc	/^void JsonUnitTestResultPrinter::OnTestIterationEnd(const UnitTest& unit_test,$/;"	f	class:testing::internal::JsonUnitTestResultPrinter
+OnTestIterationEnd	gtest.cc	/^void PrettyUnitTestResultPrinter::OnTestIterationEnd(const UnitTest& unit_test,$/;"	f	class:testing::internal::PrettyUnitTestResultPrinter
+OnTestIterationEnd	gtest.cc	/^void TestEventRepeater::OnTestIterationEnd(const UnitTest& unit_test,$/;"	f	class:testing::internal::TestEventRepeater
+OnTestIterationEnd	gtest.cc	/^void XmlUnitTestResultPrinter::OnTestIterationEnd(const UnitTest& unit_test,$/;"	f	class:testing::internal::XmlUnitTestResultPrinter
+OnTestIterationStart	gtest.cc	/^void PrettyUnitTestResultPrinter::OnTestIterationStart($/;"	f	class:testing::internal::PrettyUnitTestResultPrinter
+OnTestIterationStart	gtest.cc	/^void TestEventRepeater::OnTestIterationStart(const UnitTest& unit_test,$/;"	f	class:testing::internal::TestEventRepeater
+OnTestPartResult	gtest.cc	/^void PrettyUnitTestResultPrinter::OnTestPartResult($/;"	f	class:testing::internal::PrettyUnitTestResultPrinter
+OnTestStart	gtest.cc	/^void PrettyUnitTestResultPrinter::OnTestStart(const TestInfo& test_info) {$/;"	f	class:testing::internal::PrettyUnitTestResultPrinter
+OnTestSuiteEnd	gtest.cc	/^void PrettyUnitTestResultPrinter::OnTestSuiteEnd(const TestSuite& test_suite) {$/;"	f	class:testing::internal::PrettyUnitTestResultPrinter
+OnTestSuiteStart	gtest.cc	/^void PrettyUnitTestResultPrinter::OnTestSuiteStart($/;"	f	class:testing::internal::PrettyUnitTestResultPrinter
+OnThreadExit	gtest-port.cc	/^  static void OnThreadExit(DWORD thread_id) {$/;"	f	class:testing::internal::ThreadLocalRegistryImpl
+OnThreadLocalDestroyed	gtest-port.cc	/^  static void OnThreadLocalDestroyed($/;"	f	class:testing::internal::ThreadLocalRegistryImpl
+OnThreadLocalDestroyed	gtest-port.cc	/^void ThreadLocalRegistry::OnThreadLocalDestroyed($/;"	f	class:testing::internal::ThreadLocalRegistry
+OpenFileForWriting	gtest.cc	/^static FILE* OpenFileForWriting(const std::string& output_file) {$/;"	f	namespace:testing::internal
+OsStackTraceGetter	gtest-internal-inl.h	/^  OsStackTraceGetter() {}$/;"	f	class:testing::internal::OsStackTraceGetter
+OsStackTraceGetter	gtest-internal-inl.h	/^class OsStackTraceGetter : public OsStackTraceGetterInterface {$/;"	c	namespace:testing::internal
+OsStackTraceGetterInterface	gtest-internal-inl.h	/^  OsStackTraceGetterInterface() {}$/;"	f	class:testing::internal::OsStackTraceGetterInterface
+OsStackTraceGetterInterface	gtest-internal-inl.h	/^class OsStackTraceGetterInterface {$/;"	c	namespace:testing::internal
+OutputFlagAlsoCheckEnvVar	gtest-port.cc	/^std::string OutputFlagAlsoCheckEnvVar(){$/;"	f	namespace:testing::internal
+OutputJsonKey	gtest.cc	/^void JsonUnitTestResultPrinter::OutputJsonKey($/;"	f	class:testing::internal::JsonUnitTestResultPrinter
+OutputJsonTestInfo	gtest.cc	/^void JsonUnitTestResultPrinter::OutputJsonTestInfo(::std::ostream* stream,$/;"	f	class:testing::internal::JsonUnitTestResultPrinter
+OutputXmlAttribute	gtest.cc	/^void XmlUnitTestResultPrinter::OutputXmlAttribute($/;"	f	class:testing::internal::XmlUnitTestResultPrinter
+OutputXmlCDataSection	gtest.cc	/^void XmlUnitTestResultPrinter::OutputXmlCDataSection(::std::ostream* stream,$/;"	f	class:testing::internal::XmlUnitTestResultPrinter
+OutputXmlTestInfo	gtest.cc	/^void XmlUnitTestResultPrinter::OutputXmlTestInfo(::std::ostream* stream,$/;"	f	class:testing::internal::XmlUnitTestResultPrinter
+OutputXmlTestProperties	gtest.cc	/^void XmlUnitTestResultPrinter::OutputXmlTestProperties($/;"	f	class:testing::internal::XmlUnitTestResultPrinter
+ParseBoolFlag	gtest.cc	/^static bool ParseBoolFlag(const char* str, const char* flag, bool* value) {$/;"	f	namespace:testing::internal
+ParseFlagValue	gtest.cc	/^static const char* ParseFlagValue(const char* str, const char* flag,$/;"	f	namespace:testing::internal
+ParseGoogleTestFlag	gtest.cc	/^static bool ParseGoogleTestFlag(const char* const arg) {$/;"	f	namespace:testing::internal
+ParseGoogleTestFlagsOnly	gtest.cc	/^void ParseGoogleTestFlagsOnly(int* argc, char** argv) {$/;"	f	namespace:testing::internal
+ParseGoogleTestFlagsOnly	gtest.cc	/^void ParseGoogleTestFlagsOnly(int* argc, wchar_t** argv) {$/;"	f	namespace:testing::internal
+ParseGoogleTestFlagsOnlyImpl	gtest.cc	/^void ParseGoogleTestFlagsOnlyImpl(int* argc, CharType** argv) {$/;"	f	namespace:testing::internal
+ParseInt32	gtest-port.cc	/^bool ParseInt32(const Message& src_text, const char* str, Int32* value) {$/;"	f	namespace:testing::internal
+ParseInt32Flag	gtest.cc	/^bool ParseInt32Flag(const char* str, const char* flag, Int32* value) {$/;"	f	namespace:testing::internal
+ParseInternalRunDeathTestFlag	gtest-death-test.cc	/^InternalRunDeathTestFlag* ParseInternalRunDeathTestFlag() {$/;"	f	namespace:testing::internal
+ParseNaturalNumber	gtest-internal-inl.h	/^bool ParseNaturalNumber(const ::std::string& str, Integer* number) {$/;"	f	namespace:testing::internal
+ParseStringFlag	gtest.cc	/^static bool ParseStringFlag(const char* str, const char* flag, String* value) {$/;"	f	namespace:testing::internal
+PartialMatch	gtest-port.cc	/^bool RE::PartialMatch(const char* str, const RE& re) {$/;"	f	class:testing::internal::RE
+Passed	gtest-death-test.cc	/^bool DeathTestImpl::Passed(bool status_ok) {$/;"	f	class:testing::internal::DeathTestImpl
+Passed	gtest-internal-inl.h	/^  bool Passed() const { return !Failed(); }$/;"	f	class:testing::internal::UnitTestImpl
+Passed	gtest.cc	/^bool UnitTest::Passed() const { return impl()->Passed(); }$/;"	f	class:testing::UnitTest
+PatternMatchesString	gtest.cc	/^bool UnitTestOptions::PatternMatchesString(const char *pattern,$/;"	f	class:testing::internal::UnitTestOptions
+PortableLocaltime	gtest.cc	/^static bool PortableLocaltime(time_t seconds, struct tm* out) {$/;"	f	namespace:testing::internal
+PostFlagParsingInit	gtest.cc	/^void UnitTestImpl::PostFlagParsingInit() {$/;"	f	class:testing::internal::UnitTestImpl
+PrettyUnitTestResultPrinter	gtest.cc	/^  PrettyUnitTestResultPrinter() {}$/;"	f	class:testing::internal::PrettyUnitTestResultPrinter
+PrettyUnitTestResultPrinter	gtest.cc	/^class PrettyUnitTestResultPrinter : public TestEventListener {$/;"	c	namespace:testing::internal	file:
+PrintAsCharLiteralTo	gtest-printers.cc	/^static CharFormat PrintAsCharLiteralTo(Char c, ostream* os) {$/;"	f	namespace:testing::internal
+PrintAsStringLiteralTo	gtest-printers.cc	/^static CharFormat PrintAsStringLiteralTo(char c, ostream* os) {$/;"	f	namespace:testing::internal
+PrintAsStringLiteralTo	gtest-printers.cc	/^static CharFormat PrintAsStringLiteralTo(wchar_t c, ostream* os) {$/;"	f	namespace:testing::internal
+PrintByteSegmentInObjectTo	gtest-printers.cc	/^void PrintByteSegmentInObjectTo(const unsigned char* obj_bytes, size_t start,$/;"	f	namespace:testing::__anon4
+PrintBytesInObjectTo	gtest-printers.cc	/^void PrintBytesInObjectTo(const unsigned char* obj_bytes, size_t count,$/;"	f	namespace:testing::internal2
+PrintBytesInObjectToImpl	gtest-printers.cc	/^void PrintBytesInObjectToImpl(const unsigned char* obj_bytes, size_t count,$/;"	f	namespace:testing::__anon4
+PrintCharAndCodeTo	gtest-printers.cc	/^void PrintCharAndCodeTo(Char c, ostream* os) {$/;"	f	namespace:testing::internal
+PrintCharsAsStringTo	gtest-printers.cc	/^static CharFormat PrintCharsAsStringTo($/;"	f	namespace:testing::internal
+PrintColorEncoded	gtest.cc	/^static void PrintColorEncoded(const char* str) {$/;"	f	namespace:testing::internal
+PrintFailedTests	gtest.cc	/^void PrettyUnitTestResultPrinter::PrintFailedTests(const UnitTest& unit_test) {$/;"	f	class:testing::internal::PrettyUnitTestResultPrinter
+PrintFullTestCommentIfPresent	gtest.cc	/^static void PrintFullTestCommentIfPresent(const TestInfo& test_info) {$/;"	f	namespace:testing::internal
+PrintHeader	gtest.cc	/^  void PrintHeader(std::ostream* ss) const {$/;"	f	class:testing::internal::edit_distance::__anon7::Hunk	file:
+PrintJsonTestList	gtest.cc	/^void JsonUnitTestResultPrinter::PrintJsonTestList($/;"	f	class:testing::internal::JsonUnitTestResultPrinter
+PrintJsonTestSuite	gtest.cc	/^void JsonUnitTestResultPrinter::PrintJsonTestSuite($/;"	f	class:testing::internal::JsonUnitTestResultPrinter
+PrintJsonUnitTest	gtest.cc	/^void JsonUnitTestResultPrinter::PrintJsonUnitTest(std::ostream* stream,$/;"	f	class:testing::internal::JsonUnitTestResultPrinter
+PrintOnOneLine	gtest.cc	/^static void PrintOnOneLine(const char* str, int max_length) {$/;"	f	namespace:testing::internal
+PrintSkippedTests	gtest.cc	/^void PrettyUnitTestResultPrinter::PrintSkippedTests(const UnitTest& unit_test) {$/;"	f	class:testing::internal::PrettyUnitTestResultPrinter
+PrintStringTo	gtest-printers.cc	/^void PrintStringTo(const ::std::string& s, ostream* os) {$/;"	f	namespace:testing::internal
+PrintTestName	gtest.cc	/^  static void PrintTestName(const char* test_suite, const char* test) {$/;"	f	class:testing::internal::PrettyUnitTestResultPrinter
+PrintTestPartResult	gtest.cc	/^static void PrintTestPartResult(const TestPartResult& test_part_result) {$/;"	f	namespace:testing::internal
+PrintTestPartResultToString	gtest.cc	/^static std::string PrintTestPartResultToString($/;"	f	namespace:testing::internal
+PrintTo	gtest-printers.cc	/^void PrintTo(const char* s, ostream* os) {$/;"	f	namespace:testing::internal
+PrintTo	gtest-printers.cc	/^void PrintTo(const wchar_t* s, ostream* os) {$/;"	f	namespace:testing::internal
+PrintTo	gtest-printers.cc	/^void PrintTo(signed char c, ::std::ostream* os) {$/;"	f	namespace:testing::internal
+PrintTo	gtest-printers.cc	/^void PrintTo(unsigned char c, ::std::ostream* os) {$/;"	f	namespace:testing::internal
+PrintTo	gtest-printers.cc	/^void PrintTo(wchar_t wc, ostream* os) {$/;"	f	namespace:testing::internal
+PrintTo	gtest.cc	/^  void PrintTo(std::ostream* os) {$/;"	f	class:testing::internal::edit_distance::__anon7::Hunk
+PrintWideStringTo	gtest-printers.cc	/^void PrintWideStringTo(const ::std::wstring& s, ostream* os) {$/;"	f	namespace:testing::internal
+PrintXmlTestSuite	gtest.cc	/^void XmlUnitTestResultPrinter::PrintXmlTestSuite(std::ostream* stream,$/;"	f	class:testing::internal::XmlUnitTestResultPrinter
+PrintXmlTestsList	gtest.cc	/^void XmlUnitTestResultPrinter::PrintXmlTestsList($/;"	f	class:testing::internal::XmlUnitTestResultPrinter
+PrintXmlUnitTest	gtest.cc	/^void XmlUnitTestResultPrinter::PrintXmlUnitTest(std::ostream* stream,$/;"	f	class:testing::internal::XmlUnitTestResultPrinter
+PushLine	gtest.cc	/^  void PushLine(char edit, const char* line) {$/;"	f	class:testing::internal::edit_distance::__anon7::Hunk
+PushTrace	gtest.cc	/^void ScopedTrace::PushTrace(const char* file, int line, std::string message) {$/;"	f	class:testing::ScopedTrace
+RETURNED	gtest-death-test.cc	/^enum DeathTestOutcome { IN_PROGRESS, DIED, LIVED, RETURNED, THREW };$/;"	e	enum:testing::internal::DeathTestOutcome	file:
+ReactionToSharding	gtest-internal-inl.h	/^  enum ReactionToSharding {$/;"	g	class:testing::internal::UnitTestImpl
+ReadAndInterpretStatusByte	gtest-death-test.cc	/^void DeathTestImpl::ReadAndInterpretStatusByte() {$/;"	f	class:testing::internal::DeathTestImpl
+ReadEntireFile	gtest-port.cc	/^std::string ReadEntireFile(FILE* file) {$/;"	f	namespace:testing::internal
+ReadProcFileField	gtest-port.cc	/^T ReadProcFileField(const std::string& filename, int field) {$/;"	f	namespace:testing::internal::__anon1
+RecordProperty	gtest-internal-inl.h	/^  static void RecordProperty(TestResult* test_result,$/;"	f	class:testing::internal::TestResultAccessor
+RecordProperty	gtest.cc	/^void Test::RecordProperty(const std::string& key, const std::string& value) {$/;"	f	class:testing::Test
+RecordProperty	gtest.cc	/^void Test::RecordProperty(const std::string& key, int value) {$/;"	f	class:testing::Test
+RecordProperty	gtest.cc	/^void TestResult::RecordProperty(const std::string& xml_element,$/;"	f	class:testing::TestResult
+RecordProperty	gtest.cc	/^void UnitTest::RecordProperty(const std::string& key,$/;"	f	class:testing::UnitTest
+RecordProperty	gtest.cc	/^void UnitTestImpl::RecordProperty(const TestProperty& test_property) {$/;"	f	class:testing::internal::UnitTestImpl
+RegisterParameterizedTests	gtest.cc	/^void UnitTestImpl::RegisterParameterizedTests() {$/;"	f	class:testing::internal::UnitTestImpl
+Release	gtest.cc	/^TestEventListener* TestEventListeners::Release(TestEventListener* listener) {$/;"	f	class:testing::TestEventListeners
+Release	gtest.cc	/^TestEventListener* TestEventRepeater::Release(TestEventListener *listener) {$/;"	f	class:testing::internal::TestEventRepeater
+RemoveDirectoryName	gtest-filepath.cc	/^FilePath FilePath::RemoveDirectoryName() const {$/;"	f	class:testing::internal::FilePath
+RemoveExtension	gtest-filepath.cc	/^FilePath FilePath::RemoveExtension(const char* extension) const {$/;"	f	class:testing::internal::FilePath
+RemoveFileName	gtest-filepath.cc	/^FilePath FilePath::RemoveFileName() const {$/;"	f	class:testing::internal::FilePath
+RemoveInvalidXmlCharacters	gtest.cc	/^std::string XmlUnitTestResultPrinter::RemoveInvalidXmlCharacters($/;"	f	class:testing::internal::XmlUnitTestResultPrinter
+RemoveTrailingPathSeparator	gtest-filepath.cc	/^FilePath FilePath::RemoveTrailingPathSeparator() const {$/;"	f	class:testing::internal::FilePath
+ReportFailureInUnknownLocation	gtest.cc	/^void ReportFailureInUnknownLocation(TestPartResult::Type result_type,$/;"	f	namespace:testing::internal
+ReportInvalidTestSuiteType	gtest.cc	/^void ReportInvalidTestSuiteType(const char* test_suite_name,$/;"	f	namespace:testing::internal
+ReportTestPartResult	gtest-test-part.cc	/^void HasNewFatalFailureHelper::ReportTestPartResult($/;"	f	class:testing::internal::HasNewFatalFailureHelper
+ReportTestPartResult	gtest.cc	/^void DefaultGlobalTestPartResultReporter::ReportTestPartResult($/;"	f	class:testing::internal::DefaultGlobalTestPartResultReporter
+ReportTestPartResult	gtest.cc	/^void DefaultPerThreadTestPartResultReporter::ReportTestPartResult($/;"	f	class:testing::internal::DefaultPerThreadTestPartResultReporter
+ReportTestPartResult	gtest.cc	/^void ScopedFakeTestPartResultReporter::ReportTestPartResult($/;"	f	class:testing::ScopedFakeTestPartResultReporter
+Reset	gtest-port.cc	/^void AutoHandle::Reset() {$/;"	f	class:testing::internal::AutoHandle
+Reset	gtest-port.cc	/^void AutoHandle::Reset(HANDLE handle) {$/;"	f	class:testing::internal::AutoHandle
+Run	gtest.cc	/^int UnitTest::Run() {$/;"	f	class:testing::UnitTest
+Run	gtest.cc	/^void Test::Run() {$/;"	f	class:testing::Test
+Run	gtest.cc	/^void TestInfo::Run() {$/;"	f	class:testing::TestInfo
+Run	gtest.cc	/^void TestSuite::Run() {$/;"	f	class:testing::TestSuite
+RunAllTests	gtest.cc	/^bool UnitTestImpl::RunAllTests() {$/;"	f	class:testing::internal::UnitTestImpl
+ScopedFakeTestPartResultReporter	gtest.cc	/^ScopedFakeTestPartResultReporter::ScopedFakeTestPartResultReporter($/;"	f	class:testing::ScopedFakeTestPartResultReporter
+ScopedPrematureExitFile	gtest.cc	/^  explicit ScopedPrematureExitFile(const char* premature_exit_filepath)$/;"	f	class:testing::internal::ScopedPrematureExitFile
+ScopedPrematureExitFile	gtest.cc	/^class ScopedPrematureExitFile {$/;"	c	namespace:testing::internal	file:
+SendLn	gtest-internal-inl.h	/^    void SendLn(const std::string& message) { Send(message + "\\n"); }$/;"	f	class:testing::internal::StreamingListener::AbstractSocketWriter
+SendLn	gtest-internal-inl.h	/^  void SendLn(const std::string& message) { socket_writer_->SendLn(message); }$/;"	f	class:testing::internal::StreamingListener
+SetDefaultResultPrinter	gtest.cc	/^void TestEventListeners::SetDefaultResultPrinter(TestEventListener* listener) {$/;"	f	class:testing::TestEventListeners
+SetDefaultXmlGenerator	gtest.cc	/^void TestEventListeners::SetDefaultXmlGenerator(TestEventListener* listener) {$/;"	f	class:testing::TestEventListeners
+SetGlobalTestPartResultReporter	gtest.cc	/^void UnitTestImpl::SetGlobalTestPartResultReporter($/;"	f	class:testing::internal::UnitTestImpl
+SetInjectableArgvs	gtest-port.cc	/^void SetInjectableArgvs(const std::vector<std::string>& new_argvs) {$/;"	f	namespace:testing::internal
+SetInjectableArgvs	gtest-port.cc	/^void SetInjectableArgvs(const std::vector<std::string>* new_argvs) {$/;"	f	namespace:testing::internal
+SetTestPartResultReporterForCurrentThread	gtest.cc	/^void UnitTestImpl::SetTestPartResultReporterForCurrentThread($/;"	f	class:testing::internal::UnitTestImpl
+SetUp	gtest.cc	/^void Test::SetUp() {$/;"	f	class:testing::Test
+SetUpEnvironment	gtest.cc	/^static void SetUpEnvironment(Environment* env) { env->SetUp(); }$/;"	f	namespace:testing::internal
+ShouldRunTestOnShard	gtest.cc	/^bool ShouldRunTestOnShard(int total_shards, int shard_index, int test_id) {$/;"	f	namespace:testing::internal
+ShouldRunTestSuite	gtest.cc	/^static bool ShouldRunTestSuite(const TestSuite* test_suite) {$/;"	f	namespace:testing::internal
+ShouldShard	gtest.cc	/^bool ShouldShard(const char* total_shards_env,$/;"	f	namespace:testing::internal
+ShouldUseColor	gtest.cc	/^bool ShouldUseColor(bool stdout_is_tty) {$/;"	f	namespace:testing::internal
+ShowWideCString	gtest.cc	/^std::string String::ShowWideCString(const wchar_t * wide_c_str) {$/;"	f	class:testing::internal::String
+Shuffle	gtest-internal-inl.h	/^inline void Shuffle(internal::Random* random, std::vector<E>* v) {$/;"	f	namespace:testing::internal
+ShuffleRange	gtest-internal-inl.h	/^void ShuffleRange(internal::Random* random, int begin, int end,$/;"	f	namespace:testing::internal
+ShuffleTests	gtest.cc	/^void TestSuite::ShuffleTests(internal::Random* random) {$/;"	f	class:testing::TestSuite
+ShuffleTests	gtest.cc	/^void UnitTestImpl::ShuffleTests() {$/;"	f	class:testing::internal::UnitTestImpl
+SingleFailureChecker	gtest.cc	/^SingleFailureChecker::SingleFailureChecker(const TestPartResultArray* results,$/;"	f	class:testing::internal::SingleFailureChecker
+SkipPrefix	gtest.cc	/^bool SkipPrefix(const char* prefix, const char** pstr) {$/;"	f	namespace:testing::internal
+SkipSpaces	gtest-typed-test.cc	/^static const char* SkipSpaces(const char* str) {$/;"	f	namespace:testing::internal
+Skipped	gtest.cc	/^bool TestResult::Skipped() const {$/;"	f	class:testing::TestResult
+SleepMilliseconds	gtest-port.cc	/^void SleepMilliseconds(int n) {$/;"	f	namespace:testing::internal
+SocketWriter	gtest-internal-inl.h	/^    SocketWriter(const std::string& host, const std::string& port)$/;"	f	class:testing::internal::StreamingListener::SocketWriter
+SocketWriter	gtest-internal-inl.h	/^  class SocketWriter : public AbstractSocketWriter {$/;"	c	class:testing::internal::StreamingListener
+SplitEscapedString	gtest.cc	/^std::vector<std::string> SplitEscapedString(const std::string& str) {$/;"	f	namespace:testing::internal::__anon8
+SplitIntoTestNames	gtest-typed-test.cc	/^static std::vector<std::string> SplitIntoTestNames(const char* src) {$/;"	f	namespace:testing::internal
+SplitString	gtest.cc	/^void SplitString(const ::std::string& str, char delimiter,$/;"	f	namespace:testing::internal
+StackGrowsDown	gtest-death-test.cc	/^static bool StackGrowsDown() {$/;"	f	namespace:testing::internal
+StackLowerThanAddress	gtest-death-test.cc	/^static void StackLowerThanAddress(const void* ptr, bool* result) {$/;"	f	namespace:testing::internal
+Start	gtest-internal-inl.h	/^  void Start() { SendLn("gtest_streaming_protocol_version=1.0"); }$/;"	f	class:testing::internal::StreamingListener
+StartWatcherThreadFor	gtest-port.cc	/^  static void StartWatcherThreadFor(DWORD thread_id) {$/;"	f	class:testing::internal::ThreadLocalRegistryImpl	file:
+StreamWideCharsToMessage	gtest.cc	/^static void StreamWideCharsToMessage(const wchar_t* wstr, size_t length,$/;"	f	namespace:testing::internal
+StreamingListener	gtest-internal-inl.h	/^  StreamingListener(const std::string& host, const std::string& port)$/;"	f	class:testing::internal::StreamingListener
+StreamingListener	gtest-internal-inl.h	/^  explicit StreamingListener(AbstractSocketWriter* socket_writer)$/;"	f	class:testing::internal::StreamingListener
+StreamingListener	gtest-internal-inl.h	/^class StreamingListener : public EmptyTestEventListener {$/;"	c	namespace:testing::internal
+StringFromGTestEnv	gtest-port.cc	/^const char* StringFromGTestEnv(const char* flag, const char* default_value) {$/;"	f	namespace:testing::internal
+StringStreamToString	gtest.cc	/^std::string StringStreamToString(::std::stringstream* ss) {$/;"	f	namespace:testing::internal
+SumOverTestSuiteList	gtest.cc	/^static int SumOverTestSuiteList(const std::vector<TestSuite*>& case_list,$/;"	f	namespace:testing::internal
+SuppressEventForwarding	gtest.cc	/^void TestEventListeners::SuppressEventForwarding() {$/;"	f	class:testing::TestEventListeners
+SuppressTestEventsIfInSubprocess	gtest.cc	/^void UnitTestImpl::SuppressTestEventsIfInSubprocess() {$/;"	f	class:testing::internal::UnitTestImpl
+THREW	gtest-death-test.cc	/^enum DeathTestOutcome { IN_PROGRESS, DIED, LIVED, RETURNED, THREW };$/;"	e	enum:testing::internal::DeathTestOutcome	file:
+TearDown	gtest.cc	/^void Test::TearDown() {$/;"	f	class:testing::Test
+TearDownEnvironment	gtest.cc	/^static void TearDownEnvironment(Environment* env) { env->TearDown(); }$/;"	f	namespace:testing::internal
+TempDir	gtest.cc	/^std::string TempDir() {$/;"	f	namespace:testing
+Test	gtest.cc	/^Test::Test()$/;"	f	class:testing::Test
+TestEventListeners	gtest.cc	/^TestEventListeners::TestEventListeners()$/;"	f	class:testing::TestEventListeners
+TestEventRepeater	gtest.cc	/^  TestEventRepeater() : forwarding_enabled_(true) {}$/;"	f	class:testing::internal::TestEventRepeater
+TestEventRepeater	gtest.cc	/^class TestEventRepeater : public TestEventListener {$/;"	c	namespace:testing::internal	file:
+TestInfo	gtest.cc	/^TestInfo::TestInfo(const std::string& a_test_suite_name,$/;"	f	class:testing::TestInfo
+TestNameIs	gtest.cc	/^  explicit TestNameIs(const char* name)$/;"	f	class:testing::__anon11::TestNameIs
+TestNameIs	gtest.cc	/^class TestNameIs {$/;"	c	namespace:testing::__anon11	file:
+TestPartFatallyFailed	gtest.cc	/^static bool TestPartFatallyFailed(const TestPartResult& result) {$/;"	f	namespace:testing
+TestPartNonfatallyFailed	gtest.cc	/^static bool TestPartNonfatallyFailed(const TestPartResult& result) {$/;"	f	namespace:testing
+TestPartResultTypeToString	gtest.cc	/^static const char * TestPartResultTypeToString(TestPartResult::Type type) {$/;"	f	namespace:testing
+TestPartSkipped	gtest.cc	/^static bool TestPartSkipped(const TestPartResult& result) {$/;"	f	namespace:testing
+TestPropertiesAsJson	gtest.cc	/^std::string JsonUnitTestResultPrinter::TestPropertiesAsJson($/;"	f	class:testing::internal::JsonUnitTestResultPrinter
+TestPropertiesAsXmlAttributes	gtest.cc	/^std::string XmlUnitTestResultPrinter::TestPropertiesAsXmlAttributes($/;"	f	class:testing::internal::XmlUnitTestResultPrinter
+TestPropertyKeyIs	gtest-internal-inl.h	/^  explicit TestPropertyKeyIs(const std::string& key) : key_(key) {}$/;"	f	class:testing::internal::TestPropertyKeyIs
+TestPropertyKeyIs	gtest-internal-inl.h	/^class TestPropertyKeyIs {$/;"	c	namespace:testing::internal
+TestResult	gtest.cc	/^TestResult::TestResult()$/;"	f	class:testing::TestResult
+TestResultAccessor	gtest-internal-inl.h	/^class TestResultAccessor {$/;"	c	namespace:testing::internal
+TestSuite	gtest.cc	/^TestSuite::TestSuite(const char* a_name, const char* a_type_param,$/;"	f	class:testing::TestSuite
+TestSuiteFailed	gtest.cc	/^static bool TestSuiteFailed(const TestSuite* test_suite) {$/;"	f	namespace:testing::internal
+TestSuiteNameIs	gtest.cc	/^  explicit TestSuiteNameIs(const std::string& name) : name_(name) {}$/;"	f	class:testing::internal::TestSuiteNameIs
+TestSuiteNameIs	gtest.cc	/^class TestSuiteNameIs {$/;"	c	namespace:testing::internal	file:
+TestSuitePassed	gtest.cc	/^static bool TestSuitePassed(const TestSuite* test_suite) {$/;"	f	namespace:testing::internal
+ThreadIdAndHandle	gtest-port.cc	/^  typedef std::pair<DWORD, HANDLE> ThreadIdAndHandle;$/;"	t	class:testing::internal::ThreadLocalRegistryImpl	file:
+ThreadIdToThreadLocals	gtest-port.cc	/^  typedef std::map<DWORD, ThreadLocalValues> ThreadIdToThreadLocals;$/;"	t	class:testing::internal::ThreadLocalRegistryImpl	file:
+ThreadLocalRegistryImpl	gtest-port.cc	/^class ThreadLocalRegistryImpl {$/;"	c	namespace:testing::internal	file:
+ThreadLocalValues	gtest-port.cc	/^      ThreadLocalValues;$/;"	t	class:testing::internal::ThreadLocalRegistryImpl	file:
+ThreadMain	gtest-port.cc	/^  static DWORD WINAPI ThreadMain(void* ptr) {$/;"	f	class:testing::internal::__anon3::ThreadWithParamSupport	file:
+ThreadMainParam	gtest-port.cc	/^    ThreadMainParam(Runnable* runnable, Notification* thread_can_start)$/;"	f	struct:testing::internal::__anon3::ThreadWithParamSupport::ThreadMainParam
+ThreadMainParam	gtest-port.cc	/^  struct ThreadMainParam {$/;"	s	class:testing::internal::__anon3::ThreadWithParamSupport	file:
+ThreadSafeLazyInit	gtest-port.cc	/^void Mutex::ThreadSafeLazyInit() {$/;"	f	class:testing::internal::Mutex
+ThreadWithParamBase	gtest-port.cc	/^ThreadWithParamBase::ThreadWithParamBase(Runnable *runnable,$/;"	f	class:testing::internal::ThreadWithParamBase
+ThreadWithParamSupport	gtest-port.cc	/^class ThreadWithParamSupport : public ThreadWithParamBase {$/;"	c	namespace:testing::internal::__anon3	file:
+TraceInfo	gtest-internal-inl.h	/^struct TraceInfo {$/;"	s	namespace:testing::internal
+UnitTest	gtest.cc	/^UnitTest::UnitTest() {$/;"	f	class:testing::UnitTest
+UnitTestImpl	gtest-internal-inl.h	/^class GTEST_API_ UnitTestImpl {$/;"	c	namespace:testing::internal
+UnitTestOptions	gtest-internal-inl.h	/^class GTEST_API_ UnitTestOptions {$/;"	c	namespace:testing::internal
+UniversalPrintArray	gtest-printers.cc	/^void UniversalPrintArray(const char* begin, size_t len, ostream* os) {$/;"	f	namespace:testing::internal
+UniversalPrintArray	gtest-printers.cc	/^void UniversalPrintArray(const wchar_t* begin, size_t len, ostream* os) {$/;"	f	namespace:testing::internal
+UniversalPrintCharArray	gtest-printers.cc	/^static void UniversalPrintCharArray($/;"	f	namespace:testing::internal
+Unlock	gtest-port.cc	/^void Mutex::Unlock() {$/;"	f	class:testing::internal::Mutex
+UnshuffleTests	gtest.cc	/^void TestSuite::UnshuffleTests() {$/;"	f	class:testing::TestSuite
+UnshuffleTests	gtest.cc	/^void UnitTestImpl::UnshuffleTests() {$/;"	f	class:testing::internal::UnitTestImpl
+UrlEncode	gtest.cc	/^std::string StreamingListener::UrlEncode(const char* str) {$/;"	f	class:testing::internal::StreamingListener
+Utf16ToAnsi	gtest.cc	/^const char* String::Utf16ToAnsi(LPCWSTR utf16_str)  {$/;"	f	class:testing::internal::String
+ValidateRegex	gtest-port.cc	/^bool ValidateRegex(const char* regex) {$/;"	f	namespace:testing::internal
+ValidateTestProperty	gtest.cc	/^bool TestResult::ValidateTestProperty(const std::string& xml_element,$/;"	f	class:testing::TestResult
+ValidateTestPropertyName	gtest.cc	/^static bool ValidateTestPropertyName($/;"	f	namespace:testing
+VerifyRegisteredTestNames	gtest-typed-test.cc	/^const char* TypedTestSuitePState::VerifyRegisteredTestNames($/;"	f	class:testing::internal::TypedTestSuitePState
+Wait	gtest-death-test.cc	/^int ForkingDeathTest::Wait() {$/;"	f	class:testing::internal::ForkingDeathTest
+Wait	gtest-death-test.cc	/^int FuchsiaDeathTest::Wait() {$/;"	f	class:testing::internal::FuchsiaDeathTest
+Wait	gtest-death-test.cc	/^int WindowsDeathTest::Wait() {$/;"	f	class:testing::internal::WindowsDeathTest
+WaitForNotification	gtest-port.cc	/^void Notification::WaitForNotification() {$/;"	f	class:testing::internal::Notification
+WatcherThreadFunc	gtest-port.cc	/^  static DWORD WINAPI WatcherThreadFunc(LPVOID param) {$/;"	f	class:testing::internal::ThreadLocalRegistryImpl	file:
+WideCStringEquals	gtest.cc	/^bool String::WideCStringEquals(const wchar_t * lhs, const wchar_t * rhs) {$/;"	f	class:testing::internal::String
+WideStringToUtf8	gtest.cc	/^std::string WideStringToUtf8(const wchar_t* str, int num_chars) {$/;"	f	namespace:testing::internal
+WindowsDeathTest	gtest-death-test.cc	/^  WindowsDeathTest(const char* a_statement, Matcher<const std::string&> matcher,$/;"	f	class:testing::internal::WindowsDeathTest
+WindowsDeathTest	gtest-death-test.cc	/^class WindowsDeathTest : public DeathTestImpl {$/;"	c	namespace:testing::internal	file:
+WriteToShardStatusFileIfNeeded	gtest.cc	/^void WriteToShardStatusFileIfNeeded() {$/;"	f	namespace:testing::internal
+XmlUnitTestResultPrinter	gtest.cc	/^XmlUnitTestResultPrinter::XmlUnitTestResultPrinter(const char* output_file)$/;"	f	class:testing::internal::XmlUnitTestResultPrinter
+XmlUnitTestResultPrinter	gtest.cc	/^class XmlUnitTestResultPrinter : public EmptyTestEventListener {$/;"	c	namespace:testing::internal	file:
+ad_hoc_test_result	gtest-internal-inl.h	/^  const TestResult* ad_hoc_test_result() const { return &ad_hoc_test_result_; }$/;"	f	class:testing::internal::UnitTestImpl
+ad_hoc_test_result	gtest.cc	/^const TestResult& UnitTest::ad_hoc_test_result() const {$/;"	f	class:testing::UnitTest
+ad_hoc_test_result_	gtest-internal-inl.h	/^  TestResult ad_hoc_test_result_;$/;"	m	class:testing::internal::UnitTestImpl
+adds_	gtest.cc	/^  size_t adds_, removes_, common_;$/;"	m	class:testing::internal::edit_distance::__anon7::Hunk	file:
+also_run_disabled_tests_	gtest-internal-inl.h	/^  bool also_run_disabled_tests_;$/;"	m	class:testing::internal::GTestFlagSaver
+args_	gtest-death-test.cc	/^  std::vector<char*> args_;$/;"	m	class:testing::internal::Arguments	file:
+argv	gtest-death-test.cc	/^  char* const* argv;  \/\/ Command-line arguments for the child's call to exec$/;"	m	struct:testing::internal::ExecDeathTestArgs	file:
+break_on_failure_	gtest-internal-inl.h	/^  bool break_on_failure_;$/;"	m	class:testing::internal::GTestFlagSaver
+caller_frame_	gtest-internal-inl.h	/^  void* caller_frame_ = nullptr;$/;"	m	class:testing::internal::OsStackTraceGetter
+captured_stderr_	gtest-death-test.cc	/^  std::string captured_stderr_;$/;"	m	class:testing::internal::FuchsiaDeathTest	file:
+catch_exceptions	gtest-internal-inl.h	/^  bool catch_exceptions() const { return catch_exceptions_; }$/;"	f	class:testing::internal::UnitTestImpl
+catch_exceptions_	gtest-internal-inl.h	/^  bool catch_exceptions_;$/;"	m	class:testing::internal::GTestFlagSaver
+catch_exceptions_	gtest-internal-inl.h	/^  bool catch_exceptions_;$/;"	m	class:testing::internal::UnitTestImpl
+catch_exceptions_	gtest.cc	/^      catch_exceptions_(false) {$/;"	f	namespace:testing::internal
+child_handle_	gtest-death-test.cc	/^  AutoHandle child_handle_;$/;"	m	class:testing::internal::WindowsDeathTest	file:
+child_pid_	gtest-death-test.cc	/^  pid_t child_pid_;$/;"	m	class:testing::internal::ForkingDeathTest	file:
+child_process_	gtest-death-test.cc	/^  zx::process child_process_;$/;"	m	class:testing::internal::FuchsiaDeathTest	file:
+close_fd	gtest-death-test.cc	/^  int close_fd;       \/\/ File descriptor to close; the read end of a pipe$/;"	m	struct:testing::internal::ExecDeathTestArgs	file:
+color_	gtest-internal-inl.h	/^  std::string color_;$/;"	m	class:testing::internal::GTestFlagSaver
+common_	gtest.cc	/^  size_t adds_, removes_, common_;$/;"	m	class:testing::internal::edit_distance::__anon7::Hunk	file:
+current_test_info	gtest-internal-inl.h	/^  TestInfo* current_test_info() { return current_test_info_; }$/;"	f	class:testing::internal::UnitTestImpl
+current_test_info	gtest-internal-inl.h	/^  const TestInfo* current_test_info() const { return current_test_info_; }$/;"	f	class:testing::internal::UnitTestImpl
+current_test_info_	gtest-internal-inl.h	/^  TestInfo* current_test_info_;$/;"	m	class:testing::internal::UnitTestImpl
+current_test_result	gtest.cc	/^TestResult* UnitTestImpl::current_test_result() {$/;"	f	class:testing::internal::UnitTestImpl
+current_test_suite	gtest-internal-inl.h	/^  const TestSuite* current_test_suite() const { return current_test_suite_; }$/;"	f	class:testing::internal::UnitTestImpl
+current_test_suite_	gtest-internal-inl.h	/^  TestSuite* current_test_suite_;$/;"	m	class:testing::internal::UnitTestImpl
+death_test_factory	gtest-internal-inl.h	/^  internal::DeathTestFactory* death_test_factory() {$/;"	f	class:testing::internal::UnitTestImpl
+death_test_factory_	gtest-internal-inl.h	/^  std::unique_ptr<internal::DeathTestFactory> death_test_factory_;$/;"	m	class:testing::internal::UnitTestImpl
+death_test_style_	gtest-internal-inl.h	/^  std::string death_test_style_;$/;"	m	class:testing::internal::GTestFlagSaver
+death_test_use_fork_	gtest-internal-inl.h	/^  bool death_test_use_fork_;$/;"	m	class:testing::internal::GTestFlagSaver
+default_global_test_part_result_reporter_	gtest-internal-inl.h	/^  DefaultGlobalTestPartResultReporter default_global_test_part_result_reporter_;$/;"	m	class:testing::internal::UnitTestImpl
+default_global_test_part_result_reporter_	gtest.cc	/^          &default_global_test_part_result_reporter_),$/;"	m	namespace:testing::internal	file:
+default_per_thread_test_part_result_reporter_	gtest-internal-inl.h	/^      default_per_thread_test_part_result_reporter_;$/;"	m	class:testing::internal::UnitTestImpl
+default_per_thread_test_part_result_reporter_	gtest.cc	/^          &default_per_thread_test_part_result_reporter_),$/;"	m	namespace:testing::internal	file:
+disabled_test_count	gtest.cc	/^int TestSuite::disabled_test_count() const {$/;"	f	class:testing::TestSuite
+disabled_test_count	gtest.cc	/^int UnitTest::disabled_test_count() const {$/;"	f	class:testing::UnitTest
+disabled_test_count	gtest.cc	/^int UnitTestImpl::disabled_test_count() const {$/;"	f	class:testing::internal::UnitTestImpl
+edit_distance	gtest.cc	/^namespace edit_distance {$/;"	n	namespace:testing::internal	file:
+elapsed_time	gtest-internal-inl.h	/^  TimeInMillis elapsed_time() const { return elapsed_time_; }$/;"	f	class:testing::internal::UnitTestImpl
+elapsed_time	gtest.cc	/^internal::TimeInMillis UnitTest::elapsed_time() const {$/;"	f	class:testing::UnitTest
+elapsed_time_	gtest-internal-inl.h	/^  TimeInMillis elapsed_time_;$/;"	m	class:testing::internal::UnitTestImpl
+environ	gtest-death-test.cc	/^extern "C" char** environ;$/;"	m	namespace:testing::internal	file:
+environments	gtest-internal-inl.h	/^  std::vector<Environment*>& environments() { return environments_; }$/;"	f	class:testing::internal::UnitTestImpl
+environments_	gtest-internal-inl.h	/^  std::vector<Environment*> environments_;$/;"	m	class:testing::internal::UnitTestImpl
+event_handle_	gtest-death-test.cc	/^  AutoHandle event_handle_;$/;"	m	class:testing::internal::WindowsDeathTest	file:
+exception_channel_	gtest-death-test.cc	/^  zx::channel exception_channel_;$/;"	m	class:testing::internal::FuchsiaDeathTest	file:
+failed_test_case_count	gtest.cc	/^int UnitTest::failed_test_case_count() const {$/;"	f	class:testing::UnitTest
+failed_test_count	gtest.cc	/^int TestSuite::failed_test_count() const {$/;"	f	class:testing::TestSuite
+failed_test_count	gtest.cc	/^int UnitTest::failed_test_count() const { return impl()->failed_test_count(); }$/;"	f	class:testing::UnitTest
+failed_test_count	gtest.cc	/^int UnitTestImpl::failed_test_count() const {$/;"	f	class:testing::internal::UnitTestImpl
+failed_test_suite_count	gtest.cc	/^int UnitTest::failed_test_suite_count() const {$/;"	f	class:testing::UnitTest
+failed_test_suite_count	gtest.cc	/^int UnitTestImpl::failed_test_suite_count() const {$/;"	f	class:testing::internal::UnitTestImpl
+fd_	gtest-port.cc	/^  const int fd_;  \/\/ A stream to capture.$/;"	m	class:testing::internal::CapturedStream	file:
+file	gtest-internal-inl.h	/^  const char* file;$/;"	m	struct:testing::internal::TraceInfo
+file_	gtest-death-test.cc	/^  const char* const file_;$/;"	m	class:testing::internal::ExecDeathTest	file:
+file_	gtest-death-test.cc	/^  const char* const file_;$/;"	m	class:testing::internal::FuchsiaDeathTest	file:
+file_	gtest-death-test.cc	/^  const char* const file_;$/;"	m	class:testing::internal::WindowsDeathTest	file:
+filename_	gtest-port.cc	/^  ::std::string filename_;$/;"	m	class:testing::internal::CapturedStream	file:
+filter_	gtest-internal-inl.h	/^  std::string filter_;$/;"	m	class:testing::internal::GTestFlagSaver
+forwarding_enabled	gtest.cc	/^  bool forwarding_enabled() const { return forwarding_enabled_; }$/;"	f	class:testing::internal::TestEventRepeater
+forwarding_enabled_	gtest.cc	/^  bool forwarding_enabled_;$/;"	m	class:testing::internal::TestEventRepeater	file:
+g_argvs	gtest.cc	/^static ::std::vector<std::string> g_argvs;$/;"	m	namespace:testing::internal	file:
+g_captured_stderr	gtest-port.cc	/^static CapturedStream* g_captured_stderr = nullptr;$/;"	m	namespace:testing::internal	file:
+g_captured_stdout	gtest-port.cc	/^static CapturedStream* g_captured_stdout = nullptr;$/;"	m	namespace:testing::internal	file:
+g_help_flag	gtest.cc	/^bool g_help_flag = false;$/;"	m	namespace:testing::internal	file:
+g_in_fast_death_test_child	gtest-death-test.cc	/^static bool g_in_fast_death_test_child = false;$/;"	m	namespace:testing::internal	file:
+g_injected_test_argvs	gtest-port.cc	/^static const std::vector<std::string>* g_injected_test_argvs =$/;"	m	namespace:testing::internal	file:
+global_test_part_result_reporter_mutex_	gtest-internal-inl.h	/^  internal::Mutex global_test_part_result_reporter_mutex_;$/;"	m	class:testing::internal::UnitTestImpl
+global_test_part_result_repoter_	gtest-internal-inl.h	/^  TestPartResultReporterInterface* global_test_part_result_repoter_;$/;"	m	class:testing::internal::UnitTestImpl
+gtest_trace_stack	gtest-internal-inl.h	/^  const std::vector<TraceInfo>& gtest_trace_stack() const {$/;"	f	class:testing::internal::UnitTestImpl
+gtest_trace_stack	gtest-internal-inl.h	/^  std::vector<TraceInfo>& gtest_trace_stack() {$/;"	f	class:testing::internal::UnitTestImpl
+gtest_trace_stack_	gtest-internal-inl.h	/^  internal::ThreadLocal<std::vector<TraceInfo> > gtest_trace_stack_;$/;"	m	class:testing::internal::UnitTestImpl
+has_edits	gtest.cc	/^  bool has_edits() const { return adds_ || removes_; }$/;"	f	class:testing::internal::edit_distance::__anon7::Hunk
+host_name_	gtest-internal-inl.h	/^    const std::string host_name_;$/;"	m	class:testing::internal::StreamingListener::SocketWriter
+hunk_	gtest.cc	/^  std::list<std::pair<char, const char*> > hunk_, hunk_adds_, hunk_removes_;$/;"	m	class:testing::internal::edit_distance::__anon7::Hunk	file:
+hunk_adds_	gtest.cc	/^  std::list<std::pair<char, const char*> > hunk_, hunk_adds_, hunk_removes_;$/;"	m	class:testing::internal::edit_distance::__anon7::Hunk	file:
+hunk_removes_	gtest.cc	/^  std::list<std::pair<char, const char*> > hunk_, hunk_adds_, hunk_removes_;$/;"	m	class:testing::internal::edit_distance::__anon7::Hunk	file:
+ids_	gtest.cc	/^  IdMap ids_;$/;"	m	class:testing::internal::edit_distance::__anon6::InternalStrings	file:
+internal	gtest-death-test.cc	/^namespace internal {$/;"	n	namespace:testing	file:
+internal	gtest-filepath.cc	/^namespace internal {$/;"	n	namespace:testing	file:
+internal	gtest-internal-inl.h	/^namespace internal {$/;"	n	namespace:testing
+internal	gtest-port.cc	/^namespace internal {$/;"	n	namespace:testing	file:
+internal	gtest-printers.cc	/^namespace internal {$/;"	n	namespace:testing	file:
+internal	gtest-test-part.cc	/^namespace internal {$/;"	n	namespace:testing	file:
+internal	gtest-typed-test.cc	/^namespace internal {$/;"	n	namespace:testing	file:
+internal	gtest.cc	/^namespace internal {$/;"	n	namespace:testing	file:
+internal2	gtest-printers.cc	/^namespace internal2 {$/;"	n	namespace:testing	file:
+internal_run_death_test_	gtest-internal-inl.h	/^  std::string internal_run_death_test_;$/;"	m	class:testing::internal::GTestFlagSaver
+internal_run_death_test_flag	gtest-internal-inl.h	/^  const InternalRunDeathTestFlag* internal_run_death_test_flag() const {$/;"	f	class:testing::internal::UnitTestImpl
+internal_run_death_test_flag_	gtest-internal-inl.h	/^  std::unique_ptr<InternalRunDeathTestFlag> internal_run_death_test_flag_;$/;"	m	class:testing::internal::UnitTestImpl
+kAlsoRunDisabledTestsFlag	gtest-internal-inl.h	/^const char kAlsoRunDisabledTestsFlag[] = "also_run_disabled_tests";$/;"	m	namespace:testing::internal
+kAlternatePathSeparator	gtest-filepath.cc	/^const char kAlternatePathSeparator = '\/';$/;"	m	namespace:testing::internal	file:
+kAlternatePathSeparatorString	gtest-filepath.cc	/^const char kAlternatePathSeparatorString[] = "\/";$/;"	m	namespace:testing::internal	file:
+kAsIs	gtest-printers.cc	/^  kAsIs,$/;"	e	enum:testing::internal::CharFormat	file:
+kBreakOnFailureFlag	gtest-internal-inl.h	/^const char kBreakOnFailureFlag[] = "break_on_failure";$/;"	m	namespace:testing::internal
+kCatchExceptionsFlag	gtest-internal-inl.h	/^const char kCatchExceptionsFlag[] = "catch_exceptions";$/;"	m	namespace:testing::internal
+kColorEncodedHelpMessage	gtest.cc	/^static const char kColorEncodedHelpMessage[] =$/;"	m	namespace:testing::internal	file:
+kColorFlag	gtest-internal-inl.h	/^const char kColorFlag[] = "color";$/;"	m	namespace:testing::internal
+kCurrentDirectoryString	gtest-filepath.cc	/^const char kCurrentDirectoryString[] = ".\\\\";$/;"	m	namespace:testing::internal	file:
+kCurrentDirectoryString	gtest-filepath.cc	/^const char kCurrentDirectoryString[] = "\\\\";$/;"	m	namespace:testing::internal	file:
+kDeathTestInternalError	gtest-death-test.cc	/^static const char kDeathTestInternalError = 'I';$/;"	m	namespace:testing::internal	file:
+kDeathTestLived	gtest-death-test.cc	/^static const char kDeathTestLived = 'L';$/;"	m	namespace:testing::internal	file:
+kDeathTestReturned	gtest-death-test.cc	/^static const char kDeathTestReturned = 'R';$/;"	m	namespace:testing::internal	file:
+kDeathTestSuiteFilter	gtest.cc	/^static const char kDeathTestSuiteFilter[] = "*DeathTest:*DeathTest\/*";$/;"	m	namespace:testing	file:
+kDeathTestThrew	gtest-death-test.cc	/^static const char kDeathTestThrew = 'T';$/;"	m	namespace:testing::internal	file:
+kDefaultDeathTestStyle	gtest-death-test.cc	/^static const char kDefaultDeathTestStyle[] = GTEST_DEFAULT_DEATH_TEST_STYLE;$/;"	m	namespace:testing	file:
+kDefaultOutputFile	gtest.cc	/^static const char kDefaultOutputFile[] = "test_detail";$/;"	m	namespace:testing	file:
+kDefaultOutputFormat	gtest.cc	/^static const char kDefaultOutputFormat[] = "xml";$/;"	m	namespace:testing	file:
+kDisableTestFilter	gtest.cc	/^static const char kDisableTestFilter[] = "DISABLED_*:*\/DISABLED_*";$/;"	m	namespace:testing	file:
+kElidedFramesMarker	gtest-internal-inl.h	/^  static const char* const kElidedFramesMarker;$/;"	m	class:testing::internal::OsStackTraceGetterInterface
+kElidedFramesMarker	gtest.cc	/^const char* const OsStackTraceGetterInterface::kElidedFramesMarker =$/;"	m	class:testing::internal::OsStackTraceGetterInterface	file:
+kFilterFlag	gtest-internal-inl.h	/^const char kFilterFlag[] = "filter";$/;"	m	namespace:testing::internal
+kFlagfileFlag	gtest-internal-inl.h	/^const char kFlagfileFlag[] = "flagfile";$/;"	m	namespace:testing::internal
+kFuchsiaReadPipeFd	gtest-death-test.cc	/^static const int kFuchsiaReadPipeFd = 3;$/;"	m	namespace:testing::internal	file:
+kHexEscape	gtest-printers.cc	/^  kHexEscape,$/;"	e	enum:testing::internal::CharFormat	file:
+kInvalidFileAttributes	gtest-filepath.cc	/^const DWORD kInvalidFileAttributes = 0xffffffff;$/;"	m	namespace:testing::internal	file:
+kListTestsFlag	gtest-internal-inl.h	/^const char kListTestsFlag[] = "list_tests";$/;"	m	namespace:testing::internal
+kMaxCodePoint1	gtest.cc	/^const UInt32 kMaxCodePoint1 = (static_cast<UInt32>(1) <<  7) - 1;$/;"	m	namespace:testing::internal	file:
+kMaxCodePoint2	gtest.cc	/^const UInt32 kMaxCodePoint2 = (static_cast<UInt32>(1) << (5 + 6)) - 1;$/;"	m	namespace:testing::internal	file:
+kMaxCodePoint3	gtest.cc	/^const UInt32 kMaxCodePoint3 = (static_cast<UInt32>(1) << (4 + 2*6)) - 1;$/;"	m	namespace:testing::internal	file:
+kMaxCodePoint4	gtest.cc	/^const UInt32 kMaxCodePoint4 = (static_cast<UInt32>(1) << (3 + 3*6)) - 1;$/;"	m	namespace:testing::internal	file:
+kMaxRandomSeed	gtest-internal-inl.h	/^const int kMaxRandomSeed = 99999;$/;"	m	namespace:testing::internal
+kOutputFlag	gtest-internal-inl.h	/^const char kOutputFlag[] = "output";$/;"	m	namespace:testing::internal
+kPathSeparator	gtest-filepath.cc	/^const char kPathSeparator = '\\\\';$/;"	m	namespace:testing::internal	file:
+kPrintTimeFlag	gtest-internal-inl.h	/^const char kPrintTimeFlag[] = "print_time";$/;"	m	namespace:testing::internal
+kPrintUTF8Flag	gtest-internal-inl.h	/^const char kPrintUTF8Flag[] = "print_utf8";$/;"	m	namespace:testing::internal
+kRandomSeedFlag	gtest-internal-inl.h	/^const char kRandomSeedFlag[] = "random_seed";$/;"	m	namespace:testing::internal
+kRepeatFlag	gtest-internal-inl.h	/^const char kRepeatFlag[] = "repeat";$/;"	m	namespace:testing::internal
+kReservedOutputTestCaseAttributes	gtest.cc	/^static const char* const kReservedOutputTestCaseAttributes[] = {$/;"	m	namespace:testing	file:
+kReservedTestCaseAttributes	gtest.cc	/^static const char* const kReservedTestCaseAttributes[] = {$/;"	m	namespace:testing	file:
+kReservedTestSuiteAttributes	gtest.cc	/^static const char* const kReservedTestSuiteAttributes[] = {$/;"	m	namespace:testing	file:
+kReservedTestSuitesAttributes	gtest.cc	/^static const char* const kReservedTestSuitesAttributes[] = {$/;"	m	namespace:testing	file:
+kShuffleFlag	gtest-internal-inl.h	/^const char kShuffleFlag[] = "shuffle";$/;"	m	namespace:testing::internal
+kSpecialEscape	gtest-printers.cc	/^  kSpecialEscape$/;"	e	enum:testing::internal::CharFormat	file:
+kStackTraceDepthFlag	gtest-internal-inl.h	/^const char kStackTraceDepthFlag[] = "stack_trace_depth";$/;"	m	namespace:testing::internal
+kStackTraceMarker	gtest.cc	/^const char kStackTraceMarker[] = "\\nStack trace:\\n";$/;"	m	namespace:testing::internal	file:
+kStdErrFileno	gtest-port.cc	/^const int kStdErrFileno = 2;$/;"	m	namespace:testing::internal	file:
+kStdOutFileno	gtest-port.cc	/^const int kStdOutFileno = 1;$/;"	m	namespace:testing::internal	file:
+kStreamResultToFlag	gtest-internal-inl.h	/^const char kStreamResultToFlag[] = "stream_result_to";$/;"	m	namespace:testing::internal
+kTestShardIndex	gtest.cc	/^static const char kTestShardIndex[] = "GTEST_SHARD_INDEX";$/;"	m	namespace:testing	file:
+kTestShardStatusFile	gtest.cc	/^static const char kTestShardStatusFile[] = "GTEST_SHARD_STATUS_FILE";$/;"	m	namespace:testing	file:
+kTestTotalShards	gtest.cc	/^static const char kTestTotalShards[] = "GTEST_TOTAL_SHARDS";$/;"	m	namespace:testing	file:
+kTestTypeIdInGoogleTest	gtest.cc	/^extern const TypeId kTestTypeIdInGoogleTest = GetTestTypeId();$/;"	m	namespace:testing::internal	file:
+kThrowOnFailureFlag	gtest-internal-inl.h	/^const char kThrowOnFailureFlag[] = "throw_on_failure";$/;"	m	namespace:testing::internal
+kTypeParamLabel	gtest.cc	/^static const char kTypeParamLabel[] = "TypeParam";$/;"	m	namespace:testing::internal	file:
+kUniversalFilter	gtest.cc	/^static const char kUniversalFilter[] = "*";$/;"	m	namespace:testing	file:
+kUnknownFile	gtest-port.cc	/^const char kUnknownFile[] = "unknown file";$/;"	m	namespace:testing::internal	file:
+kValueParamLabel	gtest.cc	/^static const char kValueParamLabel[] = "GetParam()";$/;"	m	namespace:testing::internal	file:
+key_	gtest-internal-inl.h	/^  std::string key_;$/;"	m	class:testing::internal::TestPropertyKeyIs
+kinfo_proc	gtest-port.cc	/^#define kinfo_proc /;"	d	file:
+last_death_test_message_	gtest-death-test.cc	/^std::string DeathTest::last_death_test_message_;$/;"	m	class:testing::internal::DeathTest	file:
+last_death_test_suite_	gtest-internal-inl.h	/^  int last_death_test_suite_;$/;"	m	class:testing::internal::UnitTestImpl
+left_start_	gtest.cc	/^  size_t left_start_, right_start_;$/;"	m	class:testing::internal::edit_distance::__anon7::Hunk	file:
+line	gtest-internal-inl.h	/^  int line;$/;"	m	struct:testing::internal::TraceInfo
+line_	gtest-death-test.cc	/^  const int line_;$/;"	m	class:testing::internal::ExecDeathTest	file:
+line_	gtest-death-test.cc	/^  const int line_;$/;"	m	class:testing::internal::FuchsiaDeathTest	file:
+line_	gtest-death-test.cc	/^  const int line_;$/;"	m	class:testing::internal::WindowsDeathTest	file:
+list_tests_	gtest-internal-inl.h	/^  bool list_tests_;$/;"	m	class:testing::internal::GTestFlagSaver
+listeners	gtest-internal-inl.h	/^  TestEventListeners* listeners() { return &listeners_; }$/;"	f	class:testing::internal::UnitTestImpl
+listeners	gtest.cc	/^TestEventListeners& UnitTest::listeners() {$/;"	f	class:testing::UnitTest
+listeners_	gtest-internal-inl.h	/^  TestEventListeners listeners_;$/;"	m	class:testing::internal::UnitTestImpl
+listeners_	gtest.cc	/^  std::vector<TestEventListener*> listeners_;$/;"	m	class:testing::internal::TestEventRepeater	file:
+loop	gtest_main.cc	/^void loop() { RUN_ALL_TESTS(); }$/;"	f
+main	gtest_main.cc	/^GTEST_API_ int main(int argc, char **argv) {$/;"	f
+matcher_	gtest-death-test.cc	/^  Matcher<const std::string&> matcher_;$/;"	m	class:testing::internal::DeathTestImpl	file:
+message	gtest-internal-inl.h	/^  std::string message;$/;"	m	struct:testing::internal::TraceInfo
+min	gtest.cc	/^# undef min$/;"	d	file:
+mutex_	gtest-internal-inl.h	/^  Mutex mutex_;  \/\/ Protects all internal state.$/;"	m	class:testing::internal::OsStackTraceGetter
+mutex_	gtest-port.cc	/^  static Mutex mutex_;$/;"	m	class:testing::internal::ThreadLocalRegistryImpl	file:
+name_	gtest.cc	/^  std::string name_;$/;"	m	class:testing::__anon11::TestNameIs	file:
+name_	gtest.cc	/^  std::string name_;$/;"	m	class:testing::internal::TestSuiteNameIs	file:
+old_crtdbg_flag_	gtest-port.cc	/^  int old_crtdbg_flag_;$/;"	m	class:testing::internal::__anon2::MemoryIsNotDeallocated	file:
+operator !	gtest.cc	/^AssertionResult AssertionResult::operator!() const {$/;"	f	class:testing::AssertionResult
+operator ()	gtest-death-test.cc	/^bool ExitedWithCode::operator()(int exit_status) const {$/;"	f	class:testing::ExitedWithCode
+operator ()	gtest-death-test.cc	/^bool KilledBySignal::operator()(int exit_status) const {$/;"	f	class:testing::KilledBySignal
+operator ()	gtest-internal-inl.h	/^  bool operator()(const TestProperty& test_property) const {$/;"	f	class:testing::internal::TestPropertyKeyIs
+operator ()	gtest.cc	/^  bool operator()(const TestInfo * test_info) const {$/;"	f	class:testing::__anon11::TestNameIs
+operator ()	gtest.cc	/^  bool operator()(const TestSuite* test_suite) const {$/;"	f	class:testing::internal::TestSuiteNameIs
+operator <<	gtest-test-part.cc	/^std::ostream& operator<<(std::ostream& os, const TestPartResult& result) {$/;"	f	namespace:testing
+operator <<	gtest.cc	/^Message& Message::operator <<(const ::std::wstring& wstr) {$/;"	f	class:testing::Message
+operator <<	gtest.cc	/^Message& Message::operator <<(const wchar_t* wide_c_str) {$/;"	f	class:testing::Message
+operator <<	gtest.cc	/^Message& Message::operator <<(wchar_t* wide_c_str) {$/;"	f	class:testing::Message
+operator =	gtest.cc	/^void AssertHelper::operator=(const Message& message) const {$/;"	f	class:testing::internal::AssertHelper
+original_working_dir	gtest.cc	/^const char* UnitTest::original_working_dir() const {$/;"	f	class:testing::UnitTest
+original_working_dir_	gtest-internal-inl.h	/^  internal::FilePath original_working_dir_;$/;"	m	class:testing::internal::UnitTestImpl
+os_stack_trace_getter	gtest.cc	/^OsStackTraceGetterInterface* UnitTestImpl::os_stack_trace_getter() {$/;"	f	class:testing::internal::UnitTestImpl
+os_stack_trace_getter_	gtest-internal-inl.h	/^  OsStackTraceGetterInterface* os_stack_trace_getter_;$/;"	m	class:testing::internal::UnitTestImpl
+outcome	gtest-death-test.cc	/^  DeathTestOutcome outcome() const { return outcome_; }$/;"	f	class:testing::internal::DeathTestImpl
+outcome_	gtest-death-test.cc	/^  DeathTestOutcome outcome_;$/;"	m	class:testing::internal::DeathTestImpl	file:
+output_	gtest-internal-inl.h	/^  std::string output_;$/;"	m	class:testing::internal::GTestFlagSaver
+output_file_	gtest.cc	/^  const std::string output_file_;$/;"	m	class:testing::internal::JsonUnitTestResultPrinter	file:
+output_file_	gtest.cc	/^  const std::string output_file_;$/;"	m	class:testing::internal::XmlUnitTestResultPrinter	file:
+override	gtest-death-test.cc	/^  TestRole AssumeRole() override;$/;"	m	class:testing::internal::ExecDeathTest	file:
+override	gtest-death-test.cc	/^  TestRole AssumeRole() override;$/;"	m	class:testing::internal::FuchsiaDeathTest	file:
+override	gtest-death-test.cc	/^  TestRole AssumeRole() override;$/;"	m	class:testing::internal::NoExecDeathTest	file:
+override	gtest-death-test.cc	/^  bool Passed(bool status_ok) override;$/;"	m	class:testing::internal::DeathTestImpl	file:
+override	gtest-death-test.cc	/^  int Wait() override;$/;"	m	class:testing::internal::ForkingDeathTest	file:
+override	gtest-death-test.cc	/^  int Wait() override;$/;"	m	class:testing::internal::FuchsiaDeathTest	file:
+override	gtest-death-test.cc	/^  std::string GetErrorLogs() override;$/;"	m	class:testing::internal::FuchsiaDeathTest	file:
+override	gtest-death-test.cc	/^  void Abort(AbortReason reason) override;$/;"	m	class:testing::internal::DeathTestImpl	file:
+override	gtest-internal-inl.h	/^  std::string CurrentStackTrace(int max_depth, int skip_count) override;$/;"	m	class:testing::internal::OsStackTraceGetter
+override	gtest-internal-inl.h	/^  void ReportTestPartResult(const TestPartResult& result) override;$/;"	m	class:testing::internal::DefaultGlobalTestPartResultReporter
+override	gtest-internal-inl.h	/^  void ReportTestPartResult(const TestPartResult& result) override;$/;"	m	class:testing::internal::DefaultPerThreadTestPartResultReporter
+override	gtest-internal-inl.h	/^  void UponLeavingGTest() override;$/;"	m	class:testing::internal::OsStackTraceGetter
+override	gtest.cc	/^  void OnEnvironmentsSetUpEnd(const UnitTest& unit_test) override;$/;"	m	class:testing::internal::TestEventRepeater	file:
+override	gtest.cc	/^  void OnEnvironmentsSetUpStart(const UnitTest& unit_test) override;$/;"	m	class:testing::internal::PrettyUnitTestResultPrinter	file:
+override	gtest.cc	/^  void OnEnvironmentsSetUpStart(const UnitTest& unit_test) override;$/;"	m	class:testing::internal::TestEventRepeater	file:
+override	gtest.cc	/^  void OnEnvironmentsTearDownEnd(const UnitTest& unit_test) override;$/;"	m	class:testing::internal::TestEventRepeater	file:
+override	gtest.cc	/^  void OnEnvironmentsTearDownStart(const UnitTest& unit_test) override;$/;"	m	class:testing::internal::PrettyUnitTestResultPrinter	file:
+override	gtest.cc	/^  void OnEnvironmentsTearDownStart(const UnitTest& unit_test) override;$/;"	m	class:testing::internal::TestEventRepeater	file:
+override	gtest.cc	/^  void OnTestCaseEnd(const TestCase& parameter) override;$/;"	m	class:testing::internal::TestEventRepeater	file:
+override	gtest.cc	/^  void OnTestCaseEnd(const TestCase& test_case) override;$/;"	m	class:testing::internal::PrettyUnitTestResultPrinter	file:
+override	gtest.cc	/^  void OnTestCaseStart(const TestCase& test_case) override;$/;"	m	class:testing::internal::PrettyUnitTestResultPrinter	file:
+override	gtest.cc	/^  void OnTestCaseStart(const TestSuite& parameter) override;$/;"	m	class:testing::internal::TestEventRepeater	file:
+override	gtest.cc	/^  void OnTestEnd(const TestInfo& test_info) override;$/;"	m	class:testing::internal::PrettyUnitTestResultPrinter	file:
+override	gtest.cc	/^  void OnTestEnd(const TestInfo& test_info) override;$/;"	m	class:testing::internal::TestEventRepeater	file:
+override	gtest.cc	/^  void OnTestIterationEnd(const UnitTest& unit_test, int iteration) override;$/;"	m	class:testing::internal::JsonUnitTestResultPrinter	file:
+override	gtest.cc	/^  void OnTestIterationEnd(const UnitTest& unit_test, int iteration) override;$/;"	m	class:testing::internal::PrettyUnitTestResultPrinter	file:
+override	gtest.cc	/^  void OnTestIterationEnd(const UnitTest& unit_test, int iteration) override;$/;"	m	class:testing::internal::TestEventRepeater	file:
+override	gtest.cc	/^  void OnTestIterationEnd(const UnitTest& unit_test, int iteration) override;$/;"	m	class:testing::internal::XmlUnitTestResultPrinter	file:
+override	gtest.cc	/^  void OnTestIterationStart(const UnitTest& unit_test, int iteration) override;$/;"	m	class:testing::internal::PrettyUnitTestResultPrinter	file:
+override	gtest.cc	/^  void OnTestIterationStart(const UnitTest& unit_test, int iteration) override;$/;"	m	class:testing::internal::TestEventRepeater	file:
+override	gtest.cc	/^  void OnTestPartResult(const TestPartResult& result) override;$/;"	m	class:testing::internal::PrettyUnitTestResultPrinter	file:
+override	gtest.cc	/^  void OnTestPartResult(const TestPartResult& result) override;$/;"	m	class:testing::internal::TestEventRepeater	file:
+override	gtest.cc	/^  void OnTestProgramEnd(const UnitTest& unit_test) override;$/;"	m	class:testing::internal::TestEventRepeater	file:
+override	gtest.cc	/^  void OnTestProgramStart(const UnitTest& unit_test) override;$/;"	m	class:testing::internal::TestEventRepeater	file:
+override	gtest.cc	/^  void OnTestStart(const TestInfo& test_info) override;$/;"	m	class:testing::internal::PrettyUnitTestResultPrinter	file:
+override	gtest.cc	/^  void OnTestStart(const TestInfo& test_info) override;$/;"	m	class:testing::internal::TestEventRepeater	file:
+override	gtest.cc	/^  void OnTestSuiteEnd(const TestSuite& parameter) override;$/;"	m	class:testing::internal::TestEventRepeater	file:
+override	gtest.cc	/^  void OnTestSuiteEnd(const TestSuite& test_suite) override;$/;"	m	class:testing::internal::PrettyUnitTestResultPrinter	file:
+override	gtest.cc	/^  void OnTestSuiteStart(const TestSuite& parameter) override;$/;"	m	class:testing::internal::TestEventRepeater	file:
+override	gtest.cc	/^  void OnTestSuiteStart(const TestSuite& test_suite) override;$/;"	m	class:testing::internal::PrettyUnitTestResultPrinter	file:
+override	gtest.cc	/^  ~TestEventRepeater() override;$/;"	m	class:testing::internal::TestEventRepeater	file:
+parameterized_test_registry	gtest-internal-inl.h	/^  internal::ParameterizedTestSuiteRegistry& parameterized_test_registry() {$/;"	f	class:testing::internal::UnitTestImpl
+parameterized_test_registry_	gtest-internal-inl.h	/^  internal::ParameterizedTestSuiteRegistry parameterized_test_registry_;$/;"	m	class:testing::internal::UnitTestImpl
+parameterized_tests_registered_	gtest-internal-inl.h	/^  bool parameterized_tests_registered_;$/;"	m	class:testing::internal::UnitTestImpl
+parent_	gtest-internal-inl.h	/^  UnitTest* const parent_;$/;"	m	class:testing::internal::UnitTestImpl
+per_thread_test_part_result_reporter_	gtest-internal-inl.h	/^      per_thread_test_part_result_reporter_;$/;"	m	class:testing::internal::UnitTestImpl
+port_num_	gtest-internal-inl.h	/^    const std::string port_num_;$/;"	m	class:testing::internal::StreamingListener::SocketWriter
+posix	gtest-port.cc	/^namespace posix {$/;"	n	namespace:testing::internal	file:
+post_flag_parse_init_performed_	gtest-internal-inl.h	/^  bool post_flag_parse_init_performed_;$/;"	m	class:testing::internal::UnitTestImpl
+premature_exit_filepath_	gtest.cc	/^  const std::string premature_exit_filepath_;$/;"	m	class:testing::internal::ScopedPrematureExitFile	file:
+print_time_	gtest-internal-inl.h	/^  bool print_time_;$/;"	m	class:testing::internal::GTestFlagSaver
+print_utf8_	gtest-internal-inl.h	/^  bool print_utf8_;$/;"	m	class:testing::internal::GTestFlagSaver
+random	gtest-internal-inl.h	/^  internal::Random* random() { return &random_; }$/;"	f	class:testing::internal::UnitTestImpl
+random_	gtest-internal-inl.h	/^  internal::Random random_;$/;"	m	class:testing::internal::UnitTestImpl
+random_seed	gtest-internal-inl.h	/^  int random_seed() const { return random_seed_; }$/;"	f	class:testing::internal::UnitTestImpl
+random_seed	gtest.cc	/^int UnitTest::random_seed() const { return impl_->random_seed(); }$/;"	f	class:testing::UnitTest
+random_seed_	gtest-internal-inl.h	/^  int random_seed_;$/;"	m	class:testing::internal::UnitTestImpl
+random_seed_	gtest-internal-inl.h	/^  internal::Int32 random_seed_;$/;"	m	class:testing::internal::GTestFlagSaver
+read_fd	gtest-death-test.cc	/^  int read_fd() const { return read_fd_; }$/;"	f	class:testing::internal::DeathTestImpl
+read_fd_	gtest-death-test.cc	/^  int read_fd_;$/;"	m	class:testing::internal::DeathTestImpl	file:
+removes_	gtest.cc	/^  size_t adds_, removes_, common_;$/;"	m	class:testing::internal::edit_distance::__anon7::Hunk	file:
+repeat_	gtest-internal-inl.h	/^  internal::Int32 repeat_;$/;"	m	class:testing::internal::GTestFlagSaver
+repeater	gtest.cc	/^TestEventListener* TestEventListeners::repeater() { return repeater_; }$/;"	f	class:testing::TestEventListeners
+reportable_disabled_test_count	gtest.cc	/^int TestSuite::reportable_disabled_test_count() const {$/;"	f	class:testing::TestSuite
+reportable_disabled_test_count	gtest.cc	/^int UnitTest::reportable_disabled_test_count() const {$/;"	f	class:testing::UnitTest
+reportable_disabled_test_count	gtest.cc	/^int UnitTestImpl::reportable_disabled_test_count() const {$/;"	f	class:testing::internal::UnitTestImpl
+reportable_test_count	gtest.cc	/^int TestSuite::reportable_test_count() const {$/;"	f	class:testing::TestSuite
+reportable_test_count	gtest.cc	/^int UnitTest::reportable_test_count() const {$/;"	f	class:testing::UnitTest
+reportable_test_count	gtest.cc	/^int UnitTestImpl::reportable_test_count() const {$/;"	f	class:testing::internal::UnitTestImpl
+right_start_	gtest.cc	/^  size_t left_start_, right_start_;$/;"	m	class:testing::internal::edit_distance::__anon7::Hunk	file:
+runnable_	gtest-port.cc	/^    std::unique_ptr<Runnable> runnable_;$/;"	m	struct:testing::internal::__anon3::ThreadWithParamSupport::ThreadMainParam	file:
+set_catch_exceptions	gtest-internal-inl.h	/^  void set_catch_exceptions(bool value) { catch_exceptions_ = value; }$/;"	f	class:testing::internal::UnitTestImpl
+set_child_pid	gtest-death-test.cc	/^  void set_child_pid(pid_t child_pid) { child_pid_ = child_pid; }$/;"	f	class:testing::internal::ForkingDeathTest
+set_current_test_info	gtest-internal-inl.h	/^  void set_current_test_info(TestInfo* a_current_test_info) {$/;"	f	class:testing::internal::UnitTestImpl
+set_current_test_suite	gtest-internal-inl.h	/^  void set_current_test_suite(TestSuite* a_current_test_suite) {$/;"	f	class:testing::internal::UnitTestImpl
+set_forwarding_enabled	gtest.cc	/^  void set_forwarding_enabled(bool enable) { forwarding_enabled_ = enable; }$/;"	f	class:testing::internal::TestEventRepeater
+set_last_death_test_message	gtest-death-test.cc	/^void DeathTest::set_last_death_test_message(const std::string& message) {$/;"	f	class:testing::internal::DeathTest
+set_os_stack_trace_getter	gtest.cc	/^void UnitTestImpl::set_os_stack_trace_getter($/;"	f	class:testing::internal::UnitTestImpl
+set_outcome	gtest-death-test.cc	/^  void set_outcome(DeathTestOutcome an_outcome) { outcome_ = an_outcome; }$/;"	f	class:testing::internal::DeathTestImpl
+set_read_fd	gtest-death-test.cc	/^  void set_read_fd(int fd) { read_fd_ = fd; }$/;"	f	class:testing::internal::DeathTestImpl
+set_spawned	gtest-death-test.cc	/^  void set_spawned(bool is_spawned) { spawned_ = is_spawned; }$/;"	f	class:testing::internal::DeathTestImpl
+set_status	gtest-death-test.cc	/^  void set_status(int a_status) { status_ = a_status; }$/;"	f	class:testing::internal::DeathTestImpl
+set_write_fd	gtest-death-test.cc	/^  void set_write_fd(int fd) { write_fd_ = fd; }$/;"	f	class:testing::internal::DeathTestImpl
+setup	gtest_main.cc	/^void setup() {$/;"	f
+shuffle_	gtest-internal-inl.h	/^  bool shuffle_;$/;"	m	class:testing::internal::GTestFlagSaver
+size	gtest-death-test.cc	/^  int size() {$/;"	f	class:testing::internal::Arguments
+size	gtest-test-part.cc	/^int TestPartResultArray::size() const {$/;"	f	class:testing::TestPartResultArray
+skipped_test_count	gtest.cc	/^int TestSuite::skipped_test_count() const {$/;"	f	class:testing::TestSuite
+skipped_test_count	gtest.cc	/^int UnitTest::skipped_test_count() const {$/;"	f	class:testing::UnitTest
+skipped_test_count	gtest.cc	/^int UnitTestImpl::skipped_test_count() const {$/;"	f	class:testing::internal::UnitTestImpl
+socket_writer_	gtest-internal-inl.h	/^  const std::unique_ptr<AbstractSocketWriter> socket_writer_;$/;"	m	class:testing::internal::StreamingListener
+sockfd_	gtest-internal-inl.h	/^    int sockfd_;  \/\/ socket file descriptor$/;"	m	class:testing::internal::StreamingListener::SocketWriter
+spawned	gtest-death-test.cc	/^  bool spawned() const { return spawned_; }$/;"	f	class:testing::internal::DeathTestImpl
+spawned_	gtest-death-test.cc	/^  bool spawned_;$/;"	m	class:testing::internal::DeathTestImpl	file:
+stack_trace_depth_	gtest-internal-inl.h	/^  internal::Int32 stack_trace_depth_;$/;"	m	class:testing::internal::GTestFlagSaver
+start_timestamp	gtest-internal-inl.h	/^  TimeInMillis start_timestamp() const { return start_timestamp_; }$/;"	f	class:testing::internal::UnitTestImpl
+start_timestamp	gtest.cc	/^internal::TimeInMillis UnitTest::start_timestamp() const {$/;"	f	class:testing::UnitTest
+start_timestamp_	gtest-internal-inl.h	/^  TimeInMillis start_timestamp_;$/;"	m	class:testing::internal::UnitTestImpl
+statement	gtest-death-test.cc	/^  const char* statement() const { return statement_; }$/;"	f	class:testing::internal::DeathTestImpl
+statement_	gtest-death-test.cc	/^  const char* const statement_;$/;"	m	class:testing::internal::DeathTestImpl	file:
+status	gtest-death-test.cc	/^  int status() const { return status_; }$/;"	f	class:testing::internal::DeathTestImpl
+status_	gtest-death-test.cc	/^  int status_;$/;"	m	class:testing::internal::DeathTestImpl	file:
+stderr_socket_	gtest-death-test.cc	/^  zx::socket stderr_socket_;$/;"	m	class:testing::internal::FuchsiaDeathTest	file:
+stream_result_to_	gtest-internal-inl.h	/^  std::string stream_result_to_;$/;"	m	class:testing::internal::GTestFlagSaver
+successful_test_case_count	gtest.cc	/^int UnitTest::successful_test_case_count() const {$/;"	f	class:testing::UnitTest
+successful_test_count	gtest.cc	/^int TestSuite::successful_test_count() const {$/;"	f	class:testing::TestSuite
+successful_test_count	gtest.cc	/^int UnitTest::successful_test_count() const {$/;"	f	class:testing::UnitTest
+successful_test_count	gtest.cc	/^int UnitTestImpl::successful_test_count() const {$/;"	f	class:testing::internal::UnitTestImpl
+successful_test_suite_count	gtest.cc	/^int UnitTest::successful_test_suite_count() const {$/;"	f	class:testing::UnitTest
+successful_test_suite_count	gtest.cc	/^int UnitTestImpl::successful_test_suite_count() const {$/;"	f	class:testing::internal::UnitTestImpl
+swap	gtest.cc	/^void AssertionResult::swap(AssertionResult& other) {$/;"	f	class:testing::AssertionResult
+test_case_to_run_count	gtest.cc	/^int UnitTest::test_case_to_run_count() const {$/;"	f	class:testing::UnitTest
+test_part_results	gtest-internal-inl.h	/^  static const std::vector<testing::TestPartResult>& test_part_results($/;"	f	class:testing::internal::TestResultAccessor
+test_property_count	gtest.cc	/^int TestResult::test_property_count() const {$/;"	f	class:testing::TestResult
+test_suite_indices_	gtest-internal-inl.h	/^  std::vector<int> test_suite_indices_;$/;"	m	class:testing::internal::UnitTestImpl
+test_suite_to_run_count	gtest.cc	/^int UnitTest::test_suite_to_run_count() const {$/;"	f	class:testing::UnitTest
+test_suite_to_run_count	gtest.cc	/^int UnitTestImpl::test_suite_to_run_count() const {$/;"	f	class:testing::internal::UnitTestImpl
+test_suites_	gtest-internal-inl.h	/^  std::vector<TestSuite*> test_suites_;$/;"	m	class:testing::internal::UnitTestImpl
+test_to_run_count	gtest.cc	/^int TestSuite::test_to_run_count() const {$/;"	f	class:testing::TestSuite
+test_to_run_count	gtest.cc	/^int UnitTest::test_to_run_count() const { return impl()->test_to_run_count(); }$/;"	f	class:testing::UnitTest
+test_to_run_count	gtest.cc	/^int UnitTestImpl::test_to_run_count() const {$/;"	f	class:testing::internal::UnitTestImpl
+testing	gtest-death-test.cc	/^namespace testing {$/;"	n	file:
+testing	gtest-filepath.cc	/^namespace testing {$/;"	n	file:
+testing	gtest-internal-inl.h	/^namespace testing {$/;"	n
+testing	gtest-matchers.cc	/^namespace testing {$/;"	n	file:
+testing	gtest-port.cc	/^namespace testing {$/;"	n	file:
+testing	gtest-printers.cc	/^namespace testing {$/;"	n	file:
+testing	gtest-test-part.cc	/^namespace testing {$/;"	n	file:
+testing	gtest-typed-test.cc	/^namespace testing {$/;"	n	file:
+testing	gtest.cc	/^namespace testing {$/;"	n	file:
+thread_can_start_	gtest-port.cc	/^    Notification* thread_can_start_;$/;"	m	struct:testing::internal::__anon3::ThreadWithParamSupport::ThreadMainParam	file:
+thread_map_mutex_	gtest-port.cc	/^  static Mutex thread_map_mutex_;$/;"	m	class:testing::internal::ThreadLocalRegistryImpl	file:
+throw_on_failure_	gtest-internal-inl.h	/^  bool throw_on_failure_;$/;"	m	class:testing::internal::GTestFlagSaver
+total_part_count	gtest.cc	/^int TestResult::total_part_count() const {$/;"	f	class:testing::TestResult
+total_test_case_count	gtest.cc	/^int UnitTest::total_test_case_count() const {$/;"	f	class:testing::UnitTest
+total_test_count	gtest.cc	/^int TestSuite::total_test_count() const {$/;"	f	class:testing::TestSuite
+total_test_count	gtest.cc	/^int UnitTest::total_test_count() const { return impl()->total_test_count(); }$/;"	f	class:testing::UnitTest
+total_test_count	gtest.cc	/^int UnitTestImpl::total_test_count() const {$/;"	f	class:testing::internal::UnitTestImpl
+total_test_suite_count	gtest.cc	/^int UnitTest::total_test_suite_count() const {$/;"	f	class:testing::UnitTest
+total_test_suite_count	gtest.cc	/^int UnitTestImpl::total_test_suite_count() const {$/;"	f	class:testing::internal::UnitTestImpl
+uncaptured_fd_	gtest-port.cc	/^  int uncaptured_fd_;$/;"	m	class:testing::internal::CapturedStream	file:
+unit_test_	gtest-internal-inl.h	/^  UnitTestImpl* const unit_test_;$/;"	m	class:testing::internal::DefaultGlobalTestPartResultReporter
+unit_test_	gtest-internal-inl.h	/^  UnitTestImpl* const unit_test_;$/;"	m	class:testing::internal::DefaultPerThreadTestPartResultReporter
+vsnprintf	gtest.cc	/^# define vsnprintf /;"	d	file:
+write_fd	gtest-death-test.cc	/^  int write_fd() const { return write_fd_; }$/;"	f	class:testing::internal::DeathTestImpl
+write_fd_	gtest-death-test.cc	/^  int write_fd_;$/;"	m	class:testing::internal::DeathTestImpl	file:
+write_handle_	gtest-death-test.cc	/^  AutoHandle write_handle_;$/;"	m	class:testing::internal::WindowsDeathTest	file:
+~AbstractSocketWriter	gtest-internal-inl.h	/^    virtual ~AbstractSocketWriter() {}$/;"	f	class:testing::internal::StreamingListener::AbstractSocketWriter
+~Arguments	gtest-death-test.cc	/^  ~Arguments() {$/;"	f	class:testing::internal::Arguments
+~AssertHelper	gtest.cc	/^AssertHelper::~AssertHelper() {$/;"	f	class:testing::internal::AssertHelper
+~AutoHandle	gtest-port.cc	/^AutoHandle::~AutoHandle() {$/;"	f	class:testing::internal::AutoHandle
+~CapturedStream	gtest-port.cc	/^  ~CapturedStream() {$/;"	f	class:testing::internal::CapturedStream
+~GTestFlagSaver	gtest-internal-inl.h	/^  ~GTestFlagSaver() {$/;"	f	class:testing::internal::GTestFlagSaver
+~GTestLog	gtest-port.cc	/^GTestLog::~GTestLog() {$/;"	f	class:testing::internal::GTestLog
+~HasNewFatalFailureHelper	gtest-test-part.cc	/^HasNewFatalFailureHelper::~HasNewFatalFailureHelper() {$/;"	f	class:testing::internal::HasNewFatalFailureHelper
+~MemoryIsNotDeallocated	gtest-port.cc	/^  ~MemoryIsNotDeallocated() {$/;"	f	class:testing::internal::__anon2::MemoryIsNotDeallocated
+~Mutex	gtest-port.cc	/^Mutex::~Mutex() {$/;"	f	class:testing::internal::Mutex
+~OsStackTraceGetterInterface	gtest-internal-inl.h	/^  virtual ~OsStackTraceGetterInterface() {}$/;"	f	class:testing::internal::OsStackTraceGetterInterface
+~RE	gtest-port.cc	/^RE::~RE() {$/;"	f	class:testing::internal::RE
+~ScopedFakeTestPartResultReporter	gtest.cc	/^ScopedFakeTestPartResultReporter::~ScopedFakeTestPartResultReporter() {$/;"	f	class:testing::ScopedFakeTestPartResultReporter
+~ScopedPrematureExitFile	gtest.cc	/^  ~ScopedPrematureExitFile() {$/;"	f	class:testing::internal::ScopedPrematureExitFile
+~SingleFailureChecker	gtest.cc	/^SingleFailureChecker::~SingleFailureChecker() {$/;"	f	class:testing::internal::SingleFailureChecker
+~Test	gtest.cc	/^Test::~Test() {$/;"	f	class:testing::Test
+~TestEventListeners	gtest.cc	/^TestEventListeners::~TestEventListeners() { delete repeater_; }$/;"	f	class:testing::TestEventListeners
+~TestEventRepeater	gtest.cc	/^TestEventRepeater::~TestEventRepeater() {$/;"	f	class:testing::internal::TestEventRepeater
+~TestInfo	gtest.cc	/^TestInfo::~TestInfo() { delete factory_; }$/;"	f	class:testing::TestInfo
+~TestResult	gtest.cc	/^TestResult::~TestResult() {$/;"	f	class:testing::TestResult
+~TestSuite	gtest.cc	/^TestSuite::~TestSuite() {$/;"	f	class:testing::TestSuite
+~ThreadWithParamBase	gtest-port.cc	/^ThreadWithParamBase::~ThreadWithParamBase() {$/;"	f	class:testing::internal::ThreadWithParamBase
+~UnitTest	gtest.cc	/^UnitTest::~UnitTest() {$/;"	f	class:testing::UnitTest
+~UnitTestImpl	gtest.cc	/^UnitTestImpl::~UnitTestImpl() {$/;"	f	class:testing::internal::UnitTestImpl
