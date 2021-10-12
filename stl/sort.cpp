@@ -17,10 +17,12 @@ void output(vector<int> &v) {
 
 // 支持int类型的sort
 // 模板是怎么支持迭代器作为一个类
+// template<class _RandomAccessIter>
+void lyq_sort(_RandomAccessIter)
 
 
 int main() {
-    // ???改成随机数生成
+    // TODO:改成随机数生成数据测试
     int n;
     cin >> n;
     vector<int> v;
@@ -29,6 +31,8 @@ int main() {
         v.push_back(a);
     }
     lyq_sort(v.begin(), v.end());
+    // TODO: 自定义方法排序
     //sort(v.begin(), v.end());
+    //TODO: sort(v);
     output(v);
 }

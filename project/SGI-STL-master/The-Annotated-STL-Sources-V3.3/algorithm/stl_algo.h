@@ -1293,6 +1293,7 @@ _RandomAccessIter __unguarded_partition(_RandomAccessIter __first,
   }
 }
 
+// 区间数量
 const int __stl_threshold = 16;
 
 // sort() and its auxiliary functions. 
@@ -1301,6 +1302,7 @@ template <class _RandomAccessIter, class _Tp>
 void __unguarded_linear_insert(_RandomAccessIter __last, _Tp __val) {
   _RandomAccessIter __next = __last;
   --__next;
+// 没有边界判断了
   while (__val < *__next) {
     *__last = *__next;
     __last = __next;
@@ -1326,6 +1328,7 @@ template <class _RandomAccessIter, class _Tp>
 inline void __linear_insert(_RandomAccessIter __first, 
                             _RandomAccessIter __last, _Tp*) {
   _Tp __val = *__last;
+// 给__unguarded_linear_insert留出优化空间 -> 防止越界，无需要边界判断 -> unguarded
   if (__val < *__first) {
     copy_backward(__first, __last, __last + 1);
     *__first = __val;
@@ -1350,6 +1353,8 @@ template <class _RandomAccessIter>
 void __insertion_sort(_RandomAccessIter __first, _RandomAccessIter __last) {
   if (__first == __last) return; 
   for (_RandomAccessIter __i = __first + 1; __i != __last; ++__i)
+    // TODO: __first是哨兵节点
+    // TODO: 判断值的类型：__VALUE_TYPE: 
     __linear_insert(__first, __i, __VALUE_TYPE(__first));
 }
 
@@ -1390,6 +1395,8 @@ inline void __unguarded_insertion_sort(_RandomAccessIter __first,
                                  __comp);
 }
 
+// 快速排序之后，组间有序，组内无序 -> 插入排序
+// 优化思维：减少监督项
 template <class _RandomAccessIter>
 void __final_insertion_sort(_RandomAccessIter __first, 
                             _RandomAccessIter __last) {
