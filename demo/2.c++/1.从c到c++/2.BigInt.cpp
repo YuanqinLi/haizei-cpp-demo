@@ -36,13 +36,53 @@ public:
         process_digit();
     }
     
+    void operator/=(int x) {
+        int y;
+        for (int i = size() - 1; i >= 0; --i) {
+            y = y * 10 + at(i);
+            at(i) = y / x;
+            y %= x;
+        }
+        process_digit();
+        return ;
+    }
+
+    BigInt &operator/(int x) {
+        // TODO: BigInt tmp(*this) 和 BigInt tmp = *this有区别吗?
+        // TODO: wreturn-local-address, 会有内存泄露问题???
+        BigInt tmp(*this); // TODO: 用类来通过赋值运算符进行构造的方法是默认出来的吗?
+        tmp /= x;
+        return tmp;
+    }
+    
+    void operator*=(int x) {
+        for (int i = 0; i < size(); i++) at(i) *= x;
+        process_digit();
+        return ;
+    }
 private:
-    void process_digit(); 
+    // 不传任何参数，作为私有成员方法
+    // size()和at()作为类方法直接调用
+    void process_digit() {
+        for (int i = 0; i < size(); i++) {
+            if (at(i) < 10) continue;    
+            if (i + 1 == size()) push_back(0);
+            at(i + 1) += at(i) / 10; 
+            at(i) %= 10;
+        }    
+        while (size() > 1 && at(size() - 1) == 0) pop_back();
+        return ;
+    }
 };
+
 
 // TODO: 左移运算符的重载必须要放到类外?
 ostream& operator<<(ostream &out, BigInt &val) {
-
+    for (int i = val.size() - 1; i >= 0; i--) {
+        // TODO: out << val.at(i);
+        out << val[i];
+    }
+    return out;
 }
 
 int main() {
@@ -55,6 +95,7 @@ int main() {
         arr.push_back(temp);
     }
     sort(arr.begin() + 1, arr.end(), cmp);
+    // TODO: 利用赋值运算符至少需要一次类型转换；BigInt ans = 0 和 BigInt ans(0) 有区别吗？
     BigInt ans = 0, p = arr[0].a;
     for (int i = 1; i <= n; i++) {
         BigInt temp = p / arr[i].b;

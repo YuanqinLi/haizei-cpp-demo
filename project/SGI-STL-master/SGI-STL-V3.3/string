@@ -2176,6 +2176,7 @@ inline void __sgi_string_fill(ostream& __os, streambuf* __buf, size_t __n)
   for (__i = 0; __i < __n; __i++) __buf->sputc(__f);
 }
 
+// lyq: string重载<<
 template <class _CharT, class _Traits, class _Alloc>
 ostream& operator<<(ostream& __os, 
                     const basic_string<_CharT,_Traits,_Alloc>& __s)

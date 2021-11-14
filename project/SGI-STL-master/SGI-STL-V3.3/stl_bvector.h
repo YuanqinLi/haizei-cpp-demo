@@ -167,6 +167,7 @@ struct _Bit_iterator : public _Bit_iterator_base
     *this += -__i;
     return *this;
   }
+    // TODO: iterator可以识别+前面的类型，并且自动做类型转化???
   iterator operator+(difference_type __i) const {
     iterator __tmp = *this;
     return __tmp += __i;

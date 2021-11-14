@@ -51,6 +51,7 @@ void People::say(string _name) {
 }
 
 }
+
 int main() {
     haizei::People teacher("Hug");
     // TODO: this指针

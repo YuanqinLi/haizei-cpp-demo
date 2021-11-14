@@ -6,9 +6,26 @@
 #include <algorithm>
 #include <vector>
 
-// 模板类型
+#define __BEGIN(x) namespace x {
+#define __END(x) }
+
+
+namespace common {
+
+// TODO: 肯定可以实现，参考cout就知道了
+template<class _Tp> 
+void output(const std::vector<_Tp> &v) {
+    for (auto iter = v.begin(); iter != v.end(); iter++) {
+        std::cout << *iter << std::endl;
+    }
+    return ;
+}
+
+
+/*
+// TODO: 实现模板类型的output
 template<class Type> 
-void output()
+wvoid output()
 
 void output(std::vector<int> &v) {
     for (auto iter = v.begin(); iter != s.end(); iter) {
@@ -20,4 +37,7 @@ void output(std::vector<int> &v) {
         std::cout << v[i] << " ";
     }
     std::cout << std::endl;
+}
+
+*/
 }
